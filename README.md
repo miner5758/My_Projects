@@ -1,5 +1,5 @@
 # Miners Projects
-This github repository is almost a exact copy of the folder in my computer where all my projects are stored and stuff related to those projects like excel files, png's and jupyter notebooks.
+This github repository is almost a exact copy of the folder in my computer where all my projects are stored and stuff related to those projects like excel files, png's, jupyter notebooks and more.
 Im a young new programmer learning how to program in python and as i countinue to build up my skills in this laungauge the more complicated the projects i take on will become,
 an example of this is how when you look at my projects you'll see how in one of them called "Titanic tutorial" I was following a pandas tutorial teaching the fudimentals on using pandas.
 Then later as you can see in the project "pres" i went on to download, clean and plot my own data using what i had learned, using github not only do i want to show my progress overtime 
