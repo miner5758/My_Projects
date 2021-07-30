@@ -67,7 +67,7 @@ def what_should_you_do(op_1,op_2,op_3):
     answerL = random.choice(choicesL)
     print(answer,answerL)
     
-    
+   
 def number_big(**number):
     answer = number['one_five'] / number['five_ten']
     Random = number['rando']
