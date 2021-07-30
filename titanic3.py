@@ -1,9 +1,9 @@
 import pandas as pd
 
-titanic = pd.read_csv(r'C:\Users\paula\Downloads\titanic.csv')
+titanic = pd.read_csv(r'titanic.csv')
 #print(titanic.head())
 
-air_quality = pd.read_csv(r'C:\Users\paula\Downloads\air_quality_long.csv',index_col='date.utc', parse_dates=True) ##The usage of the index_col and parse_dates parameters of the read_csv function to define the first (0th) column as index of the resulting DataFrame and convert the dates in the column to Timestamp objects, respectively.
+air_quality = pd.read_csv(r'air_quality_long.csv',index_col='date.utc', parse_dates=True) ##The usage of the index_col and parse_dates parameters of the read_csv function to define the first (0th) column as index of the resulting DataFrame and convert the dates in the column to Timestamp objects, respectively.
 #print(air_quality.head())
 #print(titanic.sort_values(by='Age').head())
 #print(titanic.sort_values(by=['Pclass','Age'],ascending=False).head())
