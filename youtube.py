@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"C:\Users\paula\Downloads\CAvideos.csv",index_col='title')
+data = pd.read_csv(r"CAvideos.csv",index_col='title')
 top_5 = data.head(6)
 print(top_5)
 
