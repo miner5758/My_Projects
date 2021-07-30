@@ -9,7 +9,7 @@ state_names = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
   "Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah",
   "Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming","District of Columbia"]
 
-data = pd.read_csv(r"C:\Users\paula\Downloads\president_county_candidate.csv")
+data = pd.read_csv(r"president_county_candidate.csv")
 def plot_election(state):
     if state == 'Choices' or state == 'choices':
         print(state_names)
