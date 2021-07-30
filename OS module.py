@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 # run this code if you wanna get a discription of what all these things do
 
-#os_module_notes = open(r"C:\Users\paula\Downloads\OS module.txt", "r")
+#os_module_notes = open(r"OS module.txt", "r")
 #print(os_module_notes.read())
 
 
@@ -25,7 +25,7 @@ from datetime import datetime
 #mod_time = os.stat('yay!.txt').st_mtime
 #print(datetime.fromtimestamp(mod_time)) # turns the timestamp into a readable 
 
-#for dirpath, dirname, filenames in os.walk(r"C:\Users\paula\OneDrive\Desktop"):
+#for dirpath, dirname, filenames in os.walk(r"OneDrive\Desktop"):
  #   print('Current path:',dirpath)
   #  print('Directories:',dirname)
    # print('Files:',filenames)
