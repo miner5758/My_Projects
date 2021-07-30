@@ -7,7 +7,7 @@ def create_folder(folder_name,folder_location):
     if folder_location == 'Default':
         d = '/'
         directory = folder_name
-        parent_dir = r"C:\Users\paula\Python OS Folder"
+        parent_dir = r"Python OS Folder"
         path = os.path.join(parent_dir, directory)
         if path.count(d) == 0:
             os.mkdir(path)
@@ -20,7 +20,7 @@ def create_folder(folder_name,folder_location):
             t = '\\'
             s = '/'
             directory = folder_name
-            parent_dir = r"C:\Users\paula"
+            parent_dir = r"User"
             parent_dir = parent_dir + t + folder_location
             path = os.path.join(parent_dir, directory)
             if path.count(s) == 0:
