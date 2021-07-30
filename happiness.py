@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"C:\Users\paula\Downloads\world-happiness-report.csv")
+data = pd.read_csv(r"world-happiness-report.csv")
 d = data[data['year'] >= 2019]
 
 d = d.drop_duplicates(subset=['Country name'],keep='last')
