@@ -1,6 +1,6 @@
 import pandas as pd
 
-air_quality = pd.read_csv(r"C:\Users\paula\Downloads\air_quality_no2.csv",index_col=0, parse_dates=True)
+air_quality = pd.read_csv(r"air_quality_no2.csv",index_col=0, parse_dates=True)
 #print(air_quality.head())
 
 air_quality['london_mg_per_cubic'] = air_quality['station_london'] * 1.882 #To create a new column, use the [] brackets with the new column name at the left side of the assignment.
