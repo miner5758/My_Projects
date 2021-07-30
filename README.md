@@ -5,4 +5,4 @@ an example of this is how when you look at my projects you'll see how in one of 
 Then later as you can see in the project "pres" i went on to download, clean and plot my own data using what i had learned, using github not only do i want to show my progress overtime 
 through the progression of my projects i also want to commemorate all these projects in a place where i and others can come and look at them in the future. After all of these have taken
 an immense amount of effort and time put into them, it would be a waste to discard them. I will try to to update this repository as much as i can and hopefully in the near future 
-this will be the home to a legendary computer programmers code.
+this will be the home to a legendary computer programmers code.(PS, when im using pd.read_csv or read_excel in my projects  I removed my home directory for privacy reasons so that's why it may look a werid and broken, same thing for the os module. And the "juniors notebook file is incomplete)
