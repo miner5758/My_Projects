@@ -33,20 +33,3 @@ def create_folder(folder_name,folder_location):
             print(folder_location,"isn't a place in your computer!")
     else:
         print('Something has gone extremley wrong if you are seeing this!')
-
-
-
-# example of how to use mkdir
-
-#name of folder
-#directory = "wennie"
-  
-# Parent Directory path
-#parent_dir = r'C:\Users\paula\Downloads'
-  
-#join the two together to create a path
-#path = os.path.join(parent_dir, directory)
-
-#created the folder
-#os.mkdir(path)
-#print("Directory '%s' created" %directory)
