@@ -1,6 +1,6 @@
 import pandas as pd
 
-titanic = pd.read_csv(r"C:\Users\paula\Downloads\titanic.csv")
+titanic = pd.read_csv(r"titanic.csv")
 #print(titanic.head())
 
 #print(titanic['Name'].str.lower())
