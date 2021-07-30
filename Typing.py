@@ -1,8 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# example put into use: plot_data(r"C:\Users\paula\Downloads\Daily Typing Tests.csv",'bar','Date','WPM','Typing Test average','A')
-# example of how to use this function: plot_data(data, Type, Xlabel, Ylabel, Title, AMR)
+# example put into use: plot_data(r"Daily Typing Tests.csv",'bar','Date','WPM','Typing Test average','A')
 def plot_data(data,Type,Xlabel,Ylabel,Title,AMR): #AMR means average, median, Max
     data = pd.read_csv(data,parse_dates=True)
     if AMR == ('A') and Type == ('bar'):
