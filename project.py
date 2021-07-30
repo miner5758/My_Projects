@@ -81,7 +81,7 @@ def game(answer):
     
 def plot(go_time):
     x = datetime.datetime.now().date()
-    data = pd.read_excel(r"C:\Users\paula\game.xlsx")
+    data = pd.read_excel(r"game.xlsx")
     data = data[data['Timestamp'].dt.date == x]
     twohundred_and_below = data[data['Steps Reached'] <= 200]
     fourhundred_to_sixhundred = data[np.logical_and(data['Steps Reached']>=400, data['Steps Reached']<=600)]
