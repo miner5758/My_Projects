@@ -1,6 +1,6 @@
 import pandas as pd
 
-titanic = pd.read_csv(r"C:\Users\paula\Downloads\titanic.csv")
+titanic = pd.read_csv(r"titanic.csv")
 #print(titanic.head())
 
 ages = titanic['Age'] ##Each column in a DataFrame is a Series. As a single column is selected, the returned object is a pandas Series. We can verify this by checking the type of the output:
