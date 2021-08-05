@@ -1,3 +1,4 @@
+# figured out how to make the code from pres shorter and more efficent
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv(r"president_county_candidate.csv")
