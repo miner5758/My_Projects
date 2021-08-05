@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv(r"C:\Users\paula\Downloads\president_county_candidate.csv")
+data = pd.read_csv(r"president_county_candidate.csv")
 state_names = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois",
   "Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland",
