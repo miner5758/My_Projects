@@ -1,4 +1,3 @@
-#UNDER HEAVY RECONSTRUCTION! DON"T RUN UNTIL YOU FIX IT!!!!!
 from kaggle.api.kaggle_api_extended import KaggleApi
 import zipfile
 import folium
