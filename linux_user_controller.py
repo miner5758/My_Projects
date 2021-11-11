@@ -1,5 +1,4 @@
-#ignore error on line 23, while you wrote this code here in spyder
-#the code is meant to run on the unbuntu terminal, not here.
+#ignore error on line 23, i wrote this code in spyder and the code is meant to run on the unbuntu terminal, not here.
 import pwd, grp
 import sys
 import subprocess
