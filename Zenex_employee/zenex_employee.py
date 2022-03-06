@@ -10,17 +10,60 @@ import time as t
 from dateutil import parser
 import psutil
 import string
+import requests
+
 
 class Zenex_manager():
-    #if your code is not working but you see no errors, try deleting this
     warnings.filterwarnings("ignore", category=DeprecationWarning) 
-    with open('sec.txt') as f:
-        sectors = f.read()
-    sectors = sectors.split(',')
     if os.path.exists(os.path.join(os.getcwd(),'Zenex worker data.xlsx')):
             pass
     else:
-        raise Exception("It seems you don't have the excel sheet on your computer, download it from the github repository and dont loose it!")
+        print('Downloading necessary files...')
+        dls = 'https://github.com/miner5758/Miners_Projects/blob/Projects/Zenex_employee/Zenex%20worker%20data.xlsx?raw=true'
+        resp = requests.get(dls)
+        output = open('Zenex worker data.xlsx', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/ZEO.txt'
+        resp = requests.get(dls)
+        output = open('ZEO.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/ansy.txt'
+        resp = requests.get(dls)
+        output = open('ansy.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/sec.txt'
+        resp = requests.get(dls)
+        output = open('sec.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/zenames.txt'
+        resp = requests.get(dls)
+        output = open('zenames.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/zenapi.txt'
+        resp = requests.get(dls)
+        output = open('zenapi.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+        
+        dls = 'https://github.com/miner5758/Miners_Projects/raw/Projects/Zenex_employee/zenex_transfer.txt'
+        resp = requests.get(dls)
+        output = open('zenex_transfer.txt', 'wb')
+        output.write(resp.content)
+        output.close()
+    with open('sec.txt') as f:
+         sectors = f.read()
+    sectors = sectors.split(',')
+     
     wbk = openpyxl.load_workbook('Zenex worker data.xlsx')
     sheetvalue = ''
     sheet = ''
@@ -2939,11 +2982,11 @@ class Zenex_CEO(Zenex_Xmanager):
             try:
                 salary = int(salary)
                 if salary > 100 or salary < 60:
-                    print("{0} isn't a valid salary for this company, failed to create profile".format(str(salary)))
+                    print("{0} isn't a valid salary for this company".format(str(salary)))
                 else:
                     g = True
             except ValueError:
-                print('{0} is not a number')
+                print('{0} is not a number'.format(str(salary)))
         Zenex_manager.sectors.append(sector_name.lower())
         self.change_sector(sector_name)
         e = ['employee ID', 'Name of employee', '$ Salary per/hour $',
@@ -2996,7 +3039,7 @@ class Zenex_CEO(Zenex_Xmanager):
         with open('zenames.txt') as f:
             yu = f.readlines()
         for i in yu:
-            if self.sector.capitalize() in i:
+            if sector_name.capitalize() in i:
                 del yu[yu.index(i)]
         yu[-1] = yu[-1].strip('\n')
         with open('zenames.txt','w') as f:
@@ -3005,7 +3048,7 @@ class Zenex_CEO(Zenex_Xmanager):
         with open('zenapi.txt') as f:
             yua = f.readlines()
         for i in yua:
-            if self.sector.capitalize() in i:
+            if sector_name.capitalize() in i:
                 del yua[yua.index(i)]
         yua[-1] = yua[-1].strip('\n')
         with open('zenapi.txt','w') as f:
