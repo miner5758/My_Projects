@@ -1,0 +1,1 @@
+C++ is my second language as well as my first compiled language! This is where all the C++ files will be placed, some differences from the python directory is that each cpp file will have its own file where it should include the cpp file,files that the cpp file access in the program, and the exe compiled file.
