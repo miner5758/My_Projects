@@ -6,8 +6,16 @@ from bs4 import BeautifulSoup
 import webbrowser
 import sys
 import time as t
+import certifi
 
 # I built this code to download a all Piano ff keys and it ended up becoming a whole project of downloading all 88 without losing my connection, converting them into wav files since aiff files suck, and then trimming them to reasonable length, so im gonna put it here
+mac = input("Are you on macos? Put yes if you are and anything else if your not: ")
+mac = mac.lower()
+
+if(mac == "yes"):
+    print("Setting Certifate...")
+    os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
+    os.environ["SSL_CERT_FILE"] = certifi.where()
 
 folder = input('which folder would you like to put all the piano keys in?(path):')
 folder_of_choice = str(folder)
