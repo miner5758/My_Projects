@@ -1,3 +1,4 @@
+
 import cloudconvert
 import os
 import requests
@@ -19,7 +20,11 @@ if(mac == "yes"):
 
 folder = input('which folder would you like to put all the piano keys in?(path):')
 folder_of_choice = str(folder)
-api_key = str(input('Put you cloud convert api key here:'))
+yt = input("Path to where your api key is stored(store your key in a text file if you havent already): ")
+yt = open(yt, "r")
+api_key = yt.read()
+yt.close()
+
 Pianoff = []
 
 
@@ -88,7 +93,7 @@ def convert_to_wav(go):
         os.chdir(folder_of_choice)
         upload_task_id = job['tasks'][0]['id']
         upload_task = cloudconvert.Task.find(id=upload_task_id)
-        Res = cloudconvert.Task.upload(file_name=os.path.join(folder_of_choice, i), task=upload_task)
+        Res = cloudconvert.Task.upload(file_name=os.path.join(folder_of_choice, i), task=upload_task,)
         exported_url_task_id = job['tasks'][2]['id']
         res = cloudconvert.Task.wait(id=exported_url_task_id) # Wait for job completion
         file = res.get("result").get("files")[0]
@@ -114,6 +119,6 @@ def trim_wav(start, end ):
 sure = input("Are you SURE you want to run this? dont wanna download a bunch a stuff you don't want(yes or no):")
 sure = sure.lower()
 if sure == 'yes':
-   get_piano_keys('go')
+   get_piano_keys("go")
 elif sure == 'no':
     sys.exit()
