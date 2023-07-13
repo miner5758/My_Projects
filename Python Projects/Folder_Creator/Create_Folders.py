@@ -1,8 +1,5 @@
 import os
 
-#create folder in "python os folder", example: create_folder('h','Default')
-#cretae folder in different directory, example: create_folder('e','Downloads')
-# if you want to create a folder inside a folder, example create_folder('e','Downloads\\e')
 def create_folder(folder_name,folder_location):
     if folder_location == 'Default':
         d = '/'
