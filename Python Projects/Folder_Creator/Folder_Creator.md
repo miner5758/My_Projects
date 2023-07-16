@@ -6,4 +6,4 @@ In order to create a folder in your current directory, you would have to do this
 
 In order to create a folder in a different directory, you would have to do this, example: create_folder('e','Downloads')
 
-In order to create a folder inside a folder, you would have to do this, example create_folder('e','Downloads\\e')
+In order to create a folder inside a folder, you would have to do this, example: create_folder('e','Downloads\\e')
