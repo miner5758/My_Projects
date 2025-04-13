@@ -1,0 +1,1 @@
+I built this project for Cyberpatriot, and I had this program get input on whether you wanted to edit peoples admin status or manage users on the machine. Then, it would get a list of users from you before making the neccesary changes to the Linux machine.
