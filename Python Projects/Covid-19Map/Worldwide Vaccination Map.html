@@ -1,0 +1,4369 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f05df345c6dfb90e7119ae048c526722 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f05df345c6dfb90e7119ae048c526722" ></div>
+        
+</body>
+<script>    
+    
+            var map_f05df345c6dfb90e7119ae048c526722 = L.map(
+                "map_f05df345c6dfb90e7119ae048c526722",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Worldwide Vaccination Map",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5187cc57efdac6d0003c42112873e579 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+            var marker_de11d998438a35d5c31eb8f12544a237 = L.marker(
+                [33.7680065, 66.2385139],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_7db5a31aab29e43e28e37a8af19cacfa = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ef09f9c8a02371bb2c3d87d1eb92bbfb = $(`<div id="html_ef09f9c8a02371bb2c3d87d1eb92bbfb" style="width: 100.0%; height: 100.0%;">Afghanistan, People fully Vaccinated: 4420127.0<br>Afghanistan, People with at least one dose: 5082824.0</div>`)[0];
+                popup_7db5a31aab29e43e28e37a8af19cacfa.setContent(html_ef09f9c8a02371bb2c3d87d1eb92bbfb);
+            
+        
+
+        marker_de11d998438a35d5c31eb8f12544a237.bindPopup(popup_7db5a31aab29e43e28e37a8af19cacfa)
+        ;
+
+        
+    
+    
+            var marker_3ccfe90a132c3ba5865c0c1bafab0345 = L.marker(
+                [41.000028, 19.9999619],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d54c275bc3f4bd56cf961676c8009793 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_425812887240e76a261ab4fd0904990b = $(`<div id="html_425812887240e76a261ab4fd0904990b" style="width: 100.0%; height: 100.0%;">Albania, People fully Vaccinated: 1215199.0<br>Albania, People with at least one dose: 1278902.0</div>`)[0];
+                popup_d54c275bc3f4bd56cf961676c8009793.setContent(html_425812887240e76a261ab4fd0904990b);
+            
+        
+
+        marker_3ccfe90a132c3ba5865c0c1bafab0345.bindPopup(popup_d54c275bc3f4bd56cf961676c8009793)
+        ;
+
+        
+    
+    
+            var marker_53891fe8f2e4eac93dd503ed455c973c = L.marker(
+                [28.0000272, 2.9999825],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d548524d517f4b9cd5ec033c48a123b4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c5e516d75cbd447192d5086ab22b35c9 = $(`<div id="html_c5e516d75cbd447192d5086ab22b35c9" style="width: 100.0%; height: 100.0%;">Algeria, People fully Vaccinated: 6110712.0<br>Algeria, People with at least one dose: 7461932.0</div>`)[0];
+                popup_d548524d517f4b9cd5ec033c48a123b4.setContent(html_c5e516d75cbd447192d5086ab22b35c9);
+            
+        
+
+        marker_53891fe8f2e4eac93dd503ed455c973c.bindPopup(popup_d548524d517f4b9cd5ec033c48a123b4)
+        ;
+
+        
+    
+    
+            var marker_03d1322f51b29680a758c8b1790a2c70 = L.marker(
+                [42.5407167, 1.5732033],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0808290be82f2eb08bdf987d83534ba8 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a7850d0d0ca3f0b573110cee89b0c31e = $(`<div id="html_a7850d0d0ca3f0b573110cee89b0c31e" style="width: 100.0%; height: 100.0%;">Andorra, People fully Vaccinated: 53367.0<br>Andorra, People with at least one dose: 57817.0</div>`)[0];
+                popup_0808290be82f2eb08bdf987d83534ba8.setContent(html_a7850d0d0ca3f0b573110cee89b0c31e);
+            
+        
+
+        marker_03d1322f51b29680a758c8b1790a2c70.bindPopup(popup_0808290be82f2eb08bdf987d83534ba8)
+        ;
+
+        
+    
+    
+            var marker_9a484a2dd86190623169f875b704a3be = L.marker(
+                [-11.8775768, 17.5691241],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_be3e0a446ce38c6465935a73198542c8 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_014a68ff763f881ac4d1a45bffcdccc4 = $(`<div id="html_014a68ff763f881ac4d1a45bffcdccc4" style="width: 100.0%; height: 100.0%;">Angola, People fully Vaccinated: 5993792.0<br>Angola, People with at least one dose: 11235059.0</div>`)[0];
+                popup_be3e0a446ce38c6465935a73198542c8.setContent(html_014a68ff763f881ac4d1a45bffcdccc4);
+            
+        
+
+        marker_9a484a2dd86190623169f875b704a3be.bindPopup(popup_be3e0a446ce38c6465935a73198542c8)
+        ;
+
+        
+    
+    
+            var marker_1436a5610f08997672f1519e223f7c16 = L.marker(
+                [18.1954947, -63.0750234],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_939ed9acef4fe3d98d4d2229fb0da8d4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_70f483b49264700bc236496e6066ef88 = $(`<div id="html_70f483b49264700bc236496e6066ef88" style="width: 100.0%; height: 100.0%;">Anguilla, People fully Vaccinated: 9624.0<br>Anguilla, People with at least one dose: 10572.0</div>`)[0];
+                popup_939ed9acef4fe3d98d4d2229fb0da8d4.setContent(html_70f483b49264700bc236496e6066ef88);
+            
+        
+
+        marker_1436a5610f08997672f1519e223f7c16.bindPopup(popup_939ed9acef4fe3d98d4d2229fb0da8d4)
+        ;
+
+        
+    
+    
+            var marker_9d832c843b3e73cf0e55dafac23688ea = L.marker(
+                [17.2234721, -61.9554608],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d1859c286855183b236accbefe86ba8a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7ae9f0b5a3400122e022adb1539338e4 = $(`<div id="html_7ae9f0b5a3400122e022adb1539338e4" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda, People fully Vaccinated: 61550.0<br>Antigua and Barbuda, People with at least one dose: 63836.0</div>`)[0];
+                popup_d1859c286855183b236accbefe86ba8a.setContent(html_7ae9f0b5a3400122e022adb1539338e4);
+            
+        
+
+        marker_9d832c843b3e73cf0e55dafac23688ea.bindPopup(popup_d1859c286855183b236accbefe86ba8a)
+        ;
+
+        
+    
+    
+            var marker_a75e900b0609be6669f03e58829c6549 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ab423ddd7e91838231080413d8752a8f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_38330c54ef480a50c95188f6e2a77f07 = $(`<div id="html_38330c54ef480a50c95188f6e2a77f07" style="width: 100.0%; height: 100.0%;">Argentina, People fully Vaccinated: 36924451.0<br>Argentina, People with at least one dose: 40907186.0</div>`)[0];
+                popup_ab423ddd7e91838231080413d8752a8f.setContent(html_38330c54ef480a50c95188f6e2a77f07);
+            
+        
+
+        marker_a75e900b0609be6669f03e58829c6549.bindPopup(popup_ab423ddd7e91838231080413d8752a8f)
+        ;
+
+        
+    
+    
+            var marker_b210bb6b3cc45a19a8f701502d746a83 = L.marker(
+                [40.7696272, 44.6736646],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_68b775bf3fc8a5bb5711d6f38e3fb6cc = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cbfad681a06edaa2438a34b3d403d66d = $(`<div id="html_cbfad681a06edaa2438a34b3d403d66d" style="width: 100.0%; height: 100.0%;">Armenia, People fully Vaccinated: 948778.0<br>Armenia, People with at least one dose: 1113472.0</div>`)[0];
+                popup_68b775bf3fc8a5bb5711d6f38e3fb6cc.setContent(html_cbfad681a06edaa2438a34b3d403d66d);
+            
+        
+
+        marker_b210bb6b3cc45a19a8f701502d746a83.bindPopup(popup_68b775bf3fc8a5bb5711d6f38e3fb6cc)
+        ;
+
+        
+    
+    
+            var marker_b8763d4827d60061e3f433673d165520 = L.marker(
+                [12.5013629, -69.9618475],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6617fba484b39f2e766181bb8d7390bd = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c5b8f3f3c11c12066f615b63d618710d = $(`<div id="html_c5b8f3f3c11c12066f615b63d618710d" style="width: 100.0%; height: 100.0%;">Aruba, People fully Vaccinated: 81347.0<br>Aruba, People with at least one dose: 87884.0</div>`)[0];
+                popup_6617fba484b39f2e766181bb8d7390bd.setContent(html_c5b8f3f3c11c12066f615b63d618710d);
+            
+        
+
+        marker_b8763d4827d60061e3f433673d165520.bindPopup(popup_6617fba484b39f2e766181bb8d7390bd)
+        ;
+
+        
+    
+    
+            var marker_9b3b15cef25df6cd2f2623b408e32f06 = L.marker(
+                [-24.7761086, 134.755],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ac932a6c92afafcf7fcc52446bd376e6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_6391fe2b7eef13e37e61373c4ac05a99 = $(`<div id="html_6391fe2b7eef13e37e61373c4ac05a99" style="width: 100.0%; height: 100.0%;">Australia, People fully Vaccinated: 21200432.0<br>Australia, People with at least one dose: 22202366.0</div>`)[0];
+                popup_ac932a6c92afafcf7fcc52446bd376e6.setContent(html_6391fe2b7eef13e37e61373c4ac05a99);
+            
+        
+
+        marker_9b3b15cef25df6cd2f2623b408e32f06.bindPopup(popup_ac932a6c92afafcf7fcc52446bd376e6)
+        ;
+
+        
+    
+    
+            var marker_46b33c1084841fa52a829af34040ffce = L.marker(
+                [47.59397, 14.12456],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f00035574f8780134b737d895b96f898 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2f3fd2438451a55b3e01a0f6cde47ab9 = $(`<div id="html_2f3fd2438451a55b3e01a0f6cde47ab9" style="width: 100.0%; height: 100.0%;">Austria, People fully Vaccinated: 6588761.0<br>Austria, People with at least one dose: 6812569.0</div>`)[0];
+                popup_f00035574f8780134b737d895b96f898.setContent(html_2f3fd2438451a55b3e01a0f6cde47ab9);
+            
+        
+
+        marker_46b33c1084841fa52a829af34040ffce.bindPopup(popup_f00035574f8780134b737d895b96f898)
+        ;
+
+        
+    
+    
+            var marker_290e39026bfd4ff8abf20ef2aa4c0a3a = L.marker(
+                [40.3936294, 47.7872508],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f0a28e45104f6bb176a3d423ddf79207 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_0d6c9f2b3e94c23cb74ffa268e431fe9 = $(`<div id="html_0d6c9f2b3e94c23cb74ffa268e431fe9" style="width: 100.0%; height: 100.0%;">Azerbaijan, People fully Vaccinated: 4821276.0<br>Azerbaijan, People with at least one dose: 5322427.0</div>`)[0];
+                popup_f0a28e45104f6bb176a3d423ddf79207.setContent(html_0d6c9f2b3e94c23cb74ffa268e431fe9);
+            
+        
+
+        marker_290e39026bfd4ff8abf20ef2aa4c0a3a.bindPopup(popup_f0a28e45104f6bb176a3d423ddf79207)
+        ;
+
+        
+    
+    
+            var marker_3b45bc21468f52e8db9a71259e32a7d9 = L.marker(
+                [24.7736546, -78.0000547],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9c2b618a337715b9b716ef6b926e6cd6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_26ebab0f5b734f0628438fd83a991228 = $(`<div id="html_26ebab0f5b734f0628438fd83a991228" style="width: 100.0%; height: 100.0%;">Bahamas, People fully Vaccinated: 156089.0<br>Bahamas, People with at least one dose: 164961.0</div>`)[0];
+                popup_9c2b618a337715b9b716ef6b926e6cd6.setContent(html_26ebab0f5b734f0628438fd83a991228);
+            
+        
+
+        marker_3b45bc21468f52e8db9a71259e32a7d9.bindPopup(popup_9c2b618a337715b9b716ef6b926e6cd6)
+        ;
+
+        
+    
+    
+            var marker_de432f405b78996f5fe06a94aaece0a6 = L.marker(
+                [26.1551249, 50.5344606],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_be5cbcf2e144bb9dbc2d8842b7a333f9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_749b76022468c88671f239517b1bdee3 = $(`<div id="html_749b76022468c88671f239517b1bdee3" style="width: 100.0%; height: 100.0%;">Bahrain, People fully Vaccinated: 1216033.0<br>Bahrain, People with at least one dose: 1232740.0</div>`)[0];
+                popup_be5cbcf2e144bb9dbc2d8842b7a333f9.setContent(html_749b76022468c88671f239517b1bdee3);
+            
+        
+
+        marker_de432f405b78996f5fe06a94aaece0a6.bindPopup(popup_be5cbcf2e144bb9dbc2d8842b7a333f9)
+        ;
+
+        
+    
+    
+            var marker_de8c4d69f2dc1059216fffcf36d393ba = L.marker(
+                [24.4769288, 90.2934413],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_21a6b339852b2c3db6bbe408dd50c86c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d77a07a23509730b463088e1fdfc7201 = $(`<div id="html_d77a07a23509730b463088e1fdfc7201" style="width: 100.0%; height: 100.0%;">Bangladesh, People fully Vaccinated: 107712737.0<br>Bangladesh, People with at least one dose: 127544055.0</div>`)[0];
+                popup_21a6b339852b2c3db6bbe408dd50c86c.setContent(html_d77a07a23509730b463088e1fdfc7201);
+            
+        
+
+        marker_de8c4d69f2dc1059216fffcf36d393ba.bindPopup(popup_21a6b339852b2c3db6bbe408dd50c86c)
+        ;
+
+        
+    
+    
+            var marker_1093b9474d8b8a07b2d98a61827e9f32 = L.marker(
+                [13.1500331, -59.5250305],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b257392f596841bbd77eecde84c09caf = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5882d6f6dd1737ab776c47b4ed259257 = $(`<div id="html_5882d6f6dd1737ab776c47b4ed259257" style="width: 100.0%; height: 100.0%;">Barbados, People fully Vaccinated: 151069.0<br>Barbados, People with at least one dose: 161076.0</div>`)[0];
+                popup_b257392f596841bbd77eecde84c09caf.setContent(html_5882d6f6dd1737ab776c47b4ed259257);
+            
+        
+
+        marker_1093b9474d8b8a07b2d98a61827e9f32.bindPopup(popup_b257392f596841bbd77eecde84c09caf)
+        ;
+
+        
+    
+    
+            var marker_65dae82b91d90a3d4eef3d30b98693ce = L.marker(
+                [53.4250605, 27.6971358],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a8777359c4213294ffe2b812491429ae = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_70e1cea5b4785dbff4cde6c53bf70be4 = $(`<div id="html_70e1cea5b4785dbff4cde6c53bf70be4" style="width: 100.0%; height: 100.0%;">Belarus, People fully Vaccinated: 5565214.0<br>Belarus, People with at least one dose: 5801653.0</div>`)[0];
+                popup_a8777359c4213294ffe2b812491429ae.setContent(html_70e1cea5b4785dbff4cde6c53bf70be4);
+            
+        
+
+        marker_65dae82b91d90a3d4eef3d30b98693ce.bindPopup(popup_a8777359c4213294ffe2b812491429ae)
+        ;
+
+        
+    
+    
+            var marker_a424e62b9a585870aa36f160cece53e8 = L.marker(
+                [50.6402809, 4.6667145],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1a6883f2f43ecbb9c7f0f55d9df5f019 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5231e3b87ba69151721fd99ff37686b8 = $(`<div id="html_5231e3b87ba69151721fd99ff37686b8" style="width: 100.0%; height: 100.0%;">Belgium, People fully Vaccinated: 9126319.0<br>Belgium, People with at least one dose: 9230428.0</div>`)[0];
+                popup_1a6883f2f43ecbb9c7f0f55d9df5f019.setContent(html_5231e3b87ba69151721fd99ff37686b8);
+            
+        
+
+        marker_a424e62b9a585870aa36f160cece53e8.bindPopup(popup_1a6883f2f43ecbb9c7f0f55d9df5f019)
+        ;
+
+        
+    
+    
+            var marker_61a3d5c0289f7acc680cebca88d33401 = L.marker(
+                [16.8259793, -88.7600927],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_4d3ba3d9570377347ae43c3185d1e520 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_818060332ad0b7f0e7003f0ddee3aa74 = $(`<div id="html_818060332ad0b7f0e7003f0ddee3aa74" style="width: 100.0%; height: 100.0%;">Belize, People fully Vaccinated: 209156.0<br>Belize, People with at least one dose: 236015.0</div>`)[0];
+                popup_4d3ba3d9570377347ae43c3185d1e520.setContent(html_818060332ad0b7f0e7003f0ddee3aa74);
+            
+        
+
+        marker_61a3d5c0289f7acc680cebca88d33401.bindPopup(popup_4d3ba3d9570377347ae43c3185d1e520)
+        ;
+
+        
+    
+    
+            var marker_883d6f6bc5a5844ebc7c5cac9bb5053f = L.marker(
+                [9.5293472, 2.2584408],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_46466623fa9f4924281fa1816aefa339 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ceed515a1faf01ac9a8d22789d432059 = $(`<div id="html_ceed515a1faf01ac9a8d22789d432059" style="width: 100.0%; height: 100.0%;">Benin, People fully Vaccinated: 2430934.0<br>Benin, People with at least one dose: 2955274.0</div>`)[0];
+                popup_46466623fa9f4924281fa1816aefa339.setContent(html_ceed515a1faf01ac9a8d22789d432059);
+            
+        
+
+        marker_883d6f6bc5a5844ebc7c5cac9bb5053f.bindPopup(popup_46466623fa9f4924281fa1816aefa339)
+        ;
+
+        
+    
+    
+            var marker_260e6bf9015d546de0a00b43de99daba = L.marker(
+                [32.30382, -64.7561647],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9a6a03ad2117f76de10d225e6e6add89 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_28b5fec69eb16455156feae440076798 = $(`<div id="html_28b5fec69eb16455156feae440076798" style="width: 100.0%; height: 100.0%;">Bermuda, People fully Vaccinated: 46699.0<br>Bermuda, People with at least one dose: 48196.0</div>`)[0];
+                popup_9a6a03ad2117f76de10d225e6e6add89.setContent(html_28b5fec69eb16455156feae440076798);
+            
+        
+
+        marker_260e6bf9015d546de0a00b43de99daba.bindPopup(popup_9a6a03ad2117f76de10d225e6e6add89)
+        ;
+
+        
+    
+    
+            var marker_5b06a21bb5d7296371f064aeacaae163 = L.marker(
+                [27.549511, 90.5119273],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9388680ca666277200af92917cd2bcbc = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ae7426710c01f56932e64f24db9f2ec4 = $(`<div id="html_ae7426710c01f56932e64f24db9f2ec4" style="width: 100.0%; height: 100.0%;">Bhutan, People fully Vaccinated: 579640.0<br>Bhutan, People with at least one dose: 687549.0</div>`)[0];
+                popup_9388680ca666277200af92917cd2bcbc.setContent(html_ae7426710c01f56932e64f24db9f2ec4);
+            
+        
+
+        marker_5b06a21bb5d7296371f064aeacaae163.bindPopup(popup_9388680ca666277200af92917cd2bcbc)
+        ;
+
+        
+    
+    
+            var marker_36b2bab9e25371059499fa13ded6f9d2 = L.marker(
+                [-17.0568696, -64.9912286],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d80481eeec78a8ea1f4a50105e021f82 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_498b28db941cbe2c4e5c92b658e33653 = $(`<div id="html_498b28db941cbe2c4e5c92b658e33653" style="width: 100.0%; height: 100.0%;">Bolivia, People fully Vaccinated: 5747856.0<br>Bolivia, People with at least one dose: 7043449.0</div>`)[0];
+                popup_d80481eeec78a8ea1f4a50105e021f82.setContent(html_498b28db941cbe2c4e5c92b658e33653);
+            
+        
+
+        marker_36b2bab9e25371059499fa13ded6f9d2.bindPopup(popup_d80481eeec78a8ea1f4a50105e021f82)
+        ;
+
+        
+    
+    
+            var marker_bdcc915aafd1cb9a5047ff35dd2e8f80 = L.marker(
+                [12.21286, -68.29445],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a6c9ae25348599daed8ee5f46854332a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a9b095f6f4ff3d31f80159dd7cf78043 = $(`<div id="html_a9b095f6f4ff3d31f80159dd7cf78043" style="width: 100.0%; height: 100.0%;">Bonaire Sint Eustatius and Saba, People fully Vaccinated: 16736.0<br>Bonaire Sint Eustatius and Saba, People with at least one dose: 19109.0</div>`)[0];
+                popup_a6c9ae25348599daed8ee5f46854332a.setContent(html_a9b095f6f4ff3d31f80159dd7cf78043);
+            
+        
+
+        marker_bdcc915aafd1cb9a5047ff35dd2e8f80.bindPopup(popup_a6c9ae25348599daed8ee5f46854332a)
+        ;
+
+        
+    
+    
+            var marker_d2104ebd8e79ba2ee1072a20347d2297 = L.marker(
+                [44.3053476, 17.5961467],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_616387510227fe0476b55bff614527f9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5a6e2a90b026fc5932c4abf5a1cf24d4 = $(`<div id="html_5a6e2a90b026fc5932c4abf5a1cf24d4" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina, People fully Vaccinated: 846080.0<br>Bosnia and Herzegovina, People with at least one dose: 943394.0</div>`)[0];
+                popup_616387510227fe0476b55bff614527f9.setContent(html_5a6e2a90b026fc5932c4abf5a1cf24d4);
+            
+        
+
+        marker_d2104ebd8e79ba2ee1072a20347d2297.bindPopup(popup_616387510227fe0476b55bff614527f9)
+        ;
+
+        
+    
+    
+            var marker_aa813108db690aa999def034b2781173 = L.marker(
+                [-23.1681782, 24.5928742],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5ce8ac3d9683d3f3a178885393982181 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d2bdef4c68ca49bf008c7d86904e0bd7 = $(`<div id="html_d2bdef4c68ca49bf008c7d86904e0bd7" style="width: 100.0%; height: 100.0%;">Botswana, People fully Vaccinated: 1292541.0<br>Botswana, People with at least one dose: 1454775.0</div>`)[0];
+                popup_5ce8ac3d9683d3f3a178885393982181.setContent(html_d2bdef4c68ca49bf008c7d86904e0bd7);
+            
+        
+
+        marker_aa813108db690aa999def034b2781173.bindPopup(popup_5ce8ac3d9683d3f3a178885393982181)
+        ;
+
+        
+    
+    
+            var marker_cf33a9c3acc253f7dd14202b3fef3880 = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_475663d9b94ffd1b40bf598305c9516c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cc7605dca64fc9764b7ce823fa16d9cb = $(`<div id="html_cc7605dca64fc9764b7ce823fa16d9cb" style="width: 100.0%; height: 100.0%;">Brazil, People fully Vaccinated: 160272858.0<br>Brazil, People with at least one dose: 181078067.0</div>`)[0];
+                popup_475663d9b94ffd1b40bf598305c9516c.setContent(html_cc7605dca64fc9764b7ce823fa16d9cb);
+            
+        
+
+        marker_cf33a9c3acc253f7dd14202b3fef3880.bindPopup(popup_475663d9b94ffd1b40bf598305c9516c)
+        ;
+
+        
+    
+    
+            var marker_768ece0d924dde08052d75a6c34086f1 = L.marker(
+                [18.4024395, -64.5661642],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6d5b6abecce4bba726406ad6162571d4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2972cc51097fe9fcb71163ad48cbf520 = $(`<div id="html_2972cc51097fe9fcb71163ad48cbf520" style="width: 100.0%; height: 100.0%;">British Virgin Islands, People fully Vaccinated: 17646.0<br>British Virgin Islands, People with at least one dose: 19165.0</div>`)[0];
+                popup_6d5b6abecce4bba726406ad6162571d4.setContent(html_2972cc51097fe9fcb71163ad48cbf520);
+            
+        
+
+        marker_768ece0d924dde08052d75a6c34086f1.bindPopup(popup_6d5b6abecce4bba726406ad6162571d4)
+        ;
+
+        
+    
+    
+            var marker_dd5d48c438e589a3af564cb0e84a4e52 = L.marker(
+                [4.4137155, 114.5653908],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_4afbcb767049bb91888c399b4f1e751b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a1a3ad695737866055e2771cbba0bd70 = $(`<div id="html_a1a3ad695737866055e2771cbba0bd70" style="width: 100.0%; height: 100.0%;">Brunei, People fully Vaccinated: 404935.0<br>Brunei, People with at least one dose: 407945.0</div>`)[0];
+                popup_4afbcb767049bb91888c399b4f1e751b.setContent(html_a1a3ad695737866055e2771cbba0bd70);
+            
+        
+
+        marker_dd5d48c438e589a3af564cb0e84a4e52.bindPopup(popup_4afbcb767049bb91888c399b4f1e751b)
+        ;
+
+        
+    
+    
+            var marker_9fe0286f8f7892528a1b39ffe01f014c = L.marker(
+                [12.0753083, -1.6880314],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_cbc198211b6fcafd5ca1ebb1bfad21a3 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c4a007067c8c702db9bacb250d6e3a66 = $(`<div id="html_c4a007067c8c702db9bacb250d6e3a66" style="width: 100.0%; height: 100.0%;">Burkina Faso, People fully Vaccinated: 1188545.0<br>Burkina Faso, People with at least one dose: 2131880.0</div>`)[0];
+                popup_cbc198211b6fcafd5ca1ebb1bfad21a3.setContent(html_c4a007067c8c702db9bacb250d6e3a66);
+            
+        
+
+        marker_9fe0286f8f7892528a1b39ffe01f014c.bindPopup(popup_cbc198211b6fcafd5ca1ebb1bfad21a3)
+        ;
+
+        
+    
+    
+            var marker_c1a12a506cf384879bcff4314eb2ee76 = L.marker(
+                [-3.426449, 29.9324519],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3fea8c3094bdcfece8c9afb5a42aaafa = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7df4935f771ba06442ce61e1f5e8d8b1 = $(`<div id="html_7df4935f771ba06442ce61e1f5e8d8b1" style="width: 100.0%; height: 100.0%;">Burundi, People fully Vaccinated: 9906.0<br>Burundi, People with at least one dose: 10372.0</div>`)[0];
+                popup_3fea8c3094bdcfece8c9afb5a42aaafa.setContent(html_7df4935f771ba06442ce61e1f5e8d8b1);
+            
+        
+
+        marker_c1a12a506cf384879bcff4314eb2ee76.bindPopup(popup_3fea8c3094bdcfece8c9afb5a42aaafa)
+        ;
+
+        
+    
+    
+            var marker_dc9c51686de302a868cd18d07ebafcf8 = L.marker(
+                [12.5433216, 104.8144914],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6a4226da8ea518381278a923ec989f39 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_e9b0a31f2fd16972fb9d750254470eda = $(`<div id="html_e9b0a31f2fd16972fb9d750254470eda" style="width: 100.0%; height: 100.0%;">Cambodia, People fully Vaccinated: 13989488.0<br>Cambodia, People with at least one dose: 14814942.0</div>`)[0];
+                popup_6a4226da8ea518381278a923ec989f39.setContent(html_e9b0a31f2fd16972fb9d750254470eda);
+            
+        
+
+        marker_dc9c51686de302a868cd18d07ebafcf8.bindPopup(popup_6a4226da8ea518381278a923ec989f39)
+        ;
+
+        
+    
+    
+            var marker_d8be65cfe444234c3f8adc5d4fe9d334 = L.marker(
+                [4.6125522, 13.1535811],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3ab3ed1b7b34b48606df4f5a32afac6c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_db3a8af5ecf508acfa51bbf9fc647abd = $(`<div id="html_db3a8af5ecf508acfa51bbf9fc647abd" style="width: 100.0%; height: 100.0%;">Cameroon, People fully Vaccinated: 1048664.0<br>Cameroon, People with at least one dose: 1348787.0</div>`)[0];
+                popup_3ab3ed1b7b34b48606df4f5a32afac6c.setContent(html_db3a8af5ecf508acfa51bbf9fc647abd);
+            
+        
+
+        marker_d8be65cfe444234c3f8adc5d4fe9d334.bindPopup(popup_3ab3ed1b7b34b48606df4f5a32afac6c)
+        ;
+
+        
+    
+    
+            var marker_c6bd14e143e4eb7e206fc650c175f742 = L.marker(
+                [61.0666922, -107.991707],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_db0e8e357db33df4c6edc6c47bf4e66f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1d8ee96347bfe09725b94ae14b49ca8c = $(`<div id="html_1d8ee96347bfe09725b94ae14b49ca8c" style="width: 100.0%; height: 100.0%;">Canada, People fully Vaccinated: 31149796.0<br>Canada, People with at least one dose: 32665747.0</div>`)[0];
+                popup_db0e8e357db33df4c6edc6c47bf4e66f.setContent(html_1d8ee96347bfe09725b94ae14b49ca8c);
+            
+        
+
+        marker_c6bd14e143e4eb7e206fc650c175f742.bindPopup(popup_db0e8e357db33df4c6edc6c47bf4e66f)
+        ;
+
+        
+    
+    
+            var marker_b55b32135e13d6a6954294df18964ca2 = L.marker(
+                [16.0000552, -24.0083947],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5de7e46d110afd144ca96b394f69a9e1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_89fb78bb8046d2397c79dcfc2b9c284e = $(`<div id="html_89fb78bb8046d2397c79dcfc2b9c284e" style="width: 100.0%; height: 100.0%;">Cape Verde, People fully Vaccinated: 306782.0<br>Cape Verde, People with at least one dose: 354533.0</div>`)[0];
+                popup_5de7e46d110afd144ca96b394f69a9e1.setContent(html_89fb78bb8046d2397c79dcfc2b9c284e);
+            
+        
+
+        marker_b55b32135e13d6a6954294df18964ca2.bindPopup(popup_5de7e46d110afd144ca96b394f69a9e1)
+        ;
+
+        
+    
+    
+            var marker_30cf6493d77348192ccc0c091e1c9125 = L.marker(
+                [19.7031822, -79.9174627],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_138513f590f482ac5c4a61f15051f859 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_64de392aca78671af54309250389fcea = $(`<div id="html_64de392aca78671af54309250389fcea" style="width: 100.0%; height: 100.0%;">Cayman Islands, People fully Vaccinated: 58385.0<br>Cayman Islands, People with at least one dose: 60364.0</div>`)[0];
+                popup_138513f590f482ac5c4a61f15051f859.setContent(html_64de392aca78671af54309250389fcea);
+            
+        
+
+        marker_30cf6493d77348192ccc0c091e1c9125.bindPopup(popup_138513f590f482ac5c4a61f15051f859)
+        ;
+
+        
+    
+    
+            var marker_f05d1b6a39df766d7622880b19d624f5 = L.marker(
+                [7.0323598, 19.9981227],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_e6b5f2f684c9dae59b8791b83acf068e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1c6441e2db9dde456be656575015a335 = $(`<div id="html_1c6441e2db9dde456be656575015a335" style="width: 100.0%; height: 100.0%;">Central African Republic, People fully Vaccinated: 897945.0<br>Central African Republic, People with at least one dose: 923553.0</div>`)[0];
+                popup_e6b5f2f684c9dae59b8791b83acf068e.setContent(html_1c6441e2db9dde456be656575015a335);
+            
+        
+
+        marker_f05d1b6a39df766d7622880b19d624f5.bindPopup(popup_e6b5f2f684c9dae59b8791b83acf068e)
+        ;
+
+        
+    
+    
+            var marker_866881e68126b90a502d99817b569ebc = L.marker(
+                [15.6134137, 19.0156172],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_316a66d36ffdb4a3477d8f7d83d408ea = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3eacb04ac8095e7f91dcfbaba44abb80 = $(`<div id="html_3eacb04ac8095e7f91dcfbaba44abb80" style="width: 100.0%; height: 100.0%;">Chad, People fully Vaccinated: 153238.0<br>Chad, People with at least one dose: 282003.0</div>`)[0];
+                popup_316a66d36ffdb4a3477d8f7d83d408ea.setContent(html_3eacb04ac8095e7f91dcfbaba44abb80);
+            
+        
+
+        marker_866881e68126b90a502d99817b569ebc.bindPopup(popup_316a66d36ffdb4a3477d8f7d83d408ea)
+        ;
+
+        
+    
+    
+            var marker_428923ec7be4a039fc90553a6395f2fd = L.marker(
+                [-31.7613365, -71.3187697],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_cab26e3864e2cf3699e7d90f6019347b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2cff01b4eaaaf945340b80b9214dfd77 = $(`<div id="html_2cff01b4eaaaf945340b80b9214dfd77" style="width: 100.0%; height: 100.0%;">Chile, People fully Vaccinated: 17346012.0<br>Chile, People with at least one dose: 17859475.0</div>`)[0];
+                popup_cab26e3864e2cf3699e7d90f6019347b.setContent(html_2cff01b4eaaaf945340b80b9214dfd77);
+            
+        
+
+        marker_428923ec7be4a039fc90553a6395f2fd.bindPopup(popup_cab26e3864e2cf3699e7d90f6019347b)
+        ;
+
+        
+    
+    
+            var marker_e6f43c4c0741152d86f23be6443249de = L.marker(
+                [4.099917, -72.9088133],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_7ffb958b6e2e197bbcaad8d39ef3b6fb = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a12d4f18dd99415bb49e2633d968e94a = $(`<div id="html_a12d4f18dd99415bb49e2633d968e94a" style="width: 100.0%; height: 100.0%;">Colombia, People fully Vaccinated: 34730020.0<br>Colombia, People with at least one dose: 41940039.0</div>`)[0];
+                popup_7ffb958b6e2e197bbcaad8d39ef3b6fb.setContent(html_a12d4f18dd99415bb49e2633d968e94a);
+            
+        
+
+        marker_e6f43c4c0741152d86f23be6443249de.bindPopup(popup_7ffb958b6e2e197bbcaad8d39ef3b6fb)
+        ;
+
+        
+    
+    
+            var marker_acc022d30b9b19506ec2148d2c679f03 = L.marker(
+                [-12.2045176, 44.2832964],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_25202f1d5c5ae19e5f2dfcb170c17baf = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1327fa860f6829162d11db13e5ff0958 = $(`<div id="html_1327fa860f6829162d11db13e5ff0958" style="width: 100.0%; height: 100.0%;">Comoros, People fully Vaccinated: 301218.0<br>Comoros, People with at least one dose: 341102.0</div>`)[0];
+                popup_25202f1d5c5ae19e5f2dfcb170c17baf.setContent(html_1327fa860f6829162d11db13e5ff0958);
+            
+        
+
+        marker_acc022d30b9b19506ec2148d2c679f03.bindPopup(popup_25202f1d5c5ae19e5f2dfcb170c17baf)
+        ;
+
+        
+    
+    
+            var marker_d0e01ac4bf5e96e3946fd723cae4c5f6 = L.marker(
+                [-2.9814344, 23.8222636],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ff394c1e8c3df306b25e361082cbac52 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_6828b8e50d5637edae0da13b9d3fdcc2 = $(`<div id="html_6828b8e50d5637edae0da13b9d3fdcc2" style="width: 100.0%; height: 100.0%;">Congo, People fully Vaccinated: 640464.0<br>Congo, People with at least one dose: 681597.0</div>`)[0];
+                popup_ff394c1e8c3df306b25e361082cbac52.setContent(html_6828b8e50d5637edae0da13b9d3fdcc2);
+            
+        
+
+        marker_d0e01ac4bf5e96e3946fd723cae4c5f6.bindPopup(popup_ff394c1e8c3df306b25e361082cbac52)
+        ;
+
+        
+    
+    
+            var marker_cba47f7939d046734fcf1d6845cba608 = L.marker(
+                [-19.9196729, -157.9753369],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_220c65d87304ecb3a6ea56ee2da58eeb = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1637a97ad502641adab23856473aa4b5 = $(`<div id="html_1637a97ad502641adab23856473aa4b5" style="width: 100.0%; height: 100.0%;">Cook Islands, People fully Vaccinated: 14573.0<br>Cook Islands, People with at least one dose: 14992.0</div>`)[0];
+                popup_220c65d87304ecb3a6ea56ee2da58eeb.setContent(html_1637a97ad502641adab23856473aa4b5);
+            
+        
+
+        marker_cba47f7939d046734fcf1d6845cba608.bindPopup(popup_220c65d87304ecb3a6ea56ee2da58eeb)
+        ;
+
+        
+    
+    
+            var marker_9419cdf27cbdc0466ef7d749c9716040 = L.marker(
+                [10.2735633, -84.0739102],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5b793ecb09753777626ea4a5f4270239 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d39813927bdca271e1ac484d5bc355db = $(`<div id="html_d39813927bdca271e1ac484d5bc355db" style="width: 100.0%; height: 100.0%;">Costa Rica, People fully Vaccinated: 3971404.0<br>Costa Rica, People with at least one dose: 4336171.0</div>`)[0];
+                popup_5b793ecb09753777626ea4a5f4270239.setContent(html_d39813927bdca271e1ac484d5bc355db);
+            
+        
+
+        marker_9419cdf27cbdc0466ef7d749c9716040.bindPopup(popup_5b793ecb09753777626ea4a5f4270239)
+        ;
+
+        
+    
+    
+            var marker_8ca3b5971d1abc87af06548d92988e29 = L.marker(
+                [7.9897371, -5.5679458],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_90447fd926d92b565c564da2bf0ddd7d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_31bb742a45aab99ae8bc1f9be6ddc274 = $(`<div id="html_31bb742a45aab99ae8bc1f9be6ddc274" style="width: 100.0%; height: 100.0%;">Cote d'Ivoire, People fully Vaccinated: 4599452.0<br>Cote d'Ivoire, People with at least one dose: 7111845.0</div>`)[0];
+                popup_90447fd926d92b565c564da2bf0ddd7d.setContent(html_31bb742a45aab99ae8bc1f9be6ddc274);
+            
+        
+
+        marker_8ca3b5971d1abc87af06548d92988e29.bindPopup(popup_90447fd926d92b565c564da2bf0ddd7d)
+        ;
+
+        
+    
+    
+            var marker_31f5473ec513a4e0415a6db9552d12f3 = L.marker(
+                [45.5643442, 17.0118954],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_093b55e7a0a54395fc66299888be2bfd = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_85905734507ffdb6709543af2b814bde = $(`<div id="html_85905734507ffdb6709543af2b814bde" style="width: 100.0%; height: 100.0%;">Croatia, People fully Vaccinated: 2237864.0<br>Croatia, People with at least one dose: 2310786.0</div>`)[0];
+                popup_093b55e7a0a54395fc66299888be2bfd.setContent(html_85905734507ffdb6709543af2b814bde);
+            
+        
+
+        marker_31f5473ec513a4e0415a6db9552d12f3.bindPopup(popup_093b55e7a0a54395fc66299888be2bfd)
+        ;
+
+        
+    
+    
+            var marker_ed15588ad39e7254053e0c6652d56a78 = L.marker(
+                [23.0131338, -80.8328748],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b6abf670dc7149c5689b635aa0bd6477 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d28164ae82c912508fb47f2a07ceca2f = $(`<div id="html_d28164ae82c912508fb47f2a07ceca2f" style="width: 100.0%; height: 100.0%;">Cuba, People fully Vaccinated: 9910237.0<br>Cuba, People with at least one dose: 10630665.0</div>`)[0];
+                popup_b6abf670dc7149c5689b635aa0bd6477.setContent(html_d28164ae82c912508fb47f2a07ceca2f);
+            
+        
+
+        marker_ed15588ad39e7254053e0c6652d56a78.bindPopup(popup_b6abf670dc7149c5689b635aa0bd6477)
+        ;
+
+        
+    
+    
+            var marker_0cf366460e670bfcd47c6875c13bd261 = L.marker(
+                [12.1176488, -68.9309263],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_18689d617284b1349b805ef9d159e4ab = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c191ce03069e44ff41c9bcf1ee59e813 = $(`<div id="html_c191ce03069e44ff41c9bcf1ee59e813" style="width: 100.0%; height: 100.0%;">Curacao, People fully Vaccinated: 98489.0<br>Curacao, People with at least one dose: 107539.0</div>`)[0];
+                popup_18689d617284b1349b805ef9d159e4ab.setContent(html_c191ce03069e44ff41c9bcf1ee59e813);
+            
+        
+
+        marker_0cf366460e670bfcd47c6875c13bd261.bindPopup(popup_18689d617284b1349b805ef9d159e4ab)
+        ;
+
+        
+    
+    
+            var marker_c5dec7dd9a8da61d7b573c6d07e98d4d = L.marker(
+                [34.9823018, 33.1451285],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1c9841c9f6728378afd170e8d7155056 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c2b107b0f1191061b8d83beaded41ca1 = $(`<div id="html_c2b107b0f1191061b8d83beaded41ca1" style="width: 100.0%; height: 100.0%;">Cyprus, People fully Vaccinated: 645292.0<br>Cyprus, People with at least one dose: 687926.0</div>`)[0];
+                popup_1c9841c9f6728378afd170e8d7155056.setContent(html_c2b107b0f1191061b8d83beaded41ca1);
+            
+        
+
+        marker_c5dec7dd9a8da61d7b573c6d07e98d4d.bindPopup(popup_1c9841c9f6728378afd170e8d7155056)
+        ;
+
+        
+    
+    
+            var marker_96b20521b56fff799735782427fe7154 = L.marker(
+                [49.7439047, 15.3381061],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_bbfd54f310e065af550c0d06c7c8423e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1e64f2b2fba88df6a2b231d3b40506fc = $(`<div id="html_1e64f2b2fba88df6a2b231d3b40506fc" style="width: 100.0%; height: 100.0%;">Czechia, People fully Vaccinated: 6858609.0<br>Czechia, People with at least one dose: 6951303.0</div>`)[0];
+                popup_bbfd54f310e065af550c0d06c7c8423e.setContent(html_1e64f2b2fba88df6a2b231d3b40506fc);
+            
+        
+
+        marker_96b20521b56fff799735782427fe7154.bindPopup(popup_bbfd54f310e065af550c0d06c7c8423e)
+        ;
+
+        
+    
+    
+            var marker_b40ebd6b70f85f8f68cd31050b8e5907 = L.marker(
+                [-15.4139213, 28.289698],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_82179ace7d371c50490c6790a1acb2a1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_af4b97891cddd37711029894f0c52b78 = $(`<div id="html_af4b97891cddd37711029894f0c52b78" style="width: 100.0%; height: 100.0%;">Democratic Republic of Congo, People fully Vaccinated: 519397.0<br>Democratic Republic of Congo, People with at least one dose: 853971.0</div>`)[0];
+                popup_82179ace7d371c50490c6790a1acb2a1.setContent(html_af4b97891cddd37711029894f0c52b78);
+            
+        
+
+        marker_b40ebd6b70f85f8f68cd31050b8e5907.bindPopup(popup_82179ace7d371c50490c6790a1acb2a1)
+        ;
+
+        
+    
+    
+            var marker_b99ff95050427741bf9912c096910b4c = L.marker(
+                [55.670249, 10.3333283],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6ed6801026a5aff9275ce66731a6a810 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_27d3cec4c738f5213fb32b8b2d48ffd6 = $(`<div id="html_27d3cec4c738f5213fb32b8b2d48ffd6" style="width: 100.0%; height: 100.0%;">Denmark, People fully Vaccinated: 4801547.0<br>Denmark, People with at least one dose: 4841445.0</div>`)[0];
+                popup_6ed6801026a5aff9275ce66731a6a810.setContent(html_27d3cec4c738f5213fb32b8b2d48ffd6);
+            
+        
+
+        marker_b99ff95050427741bf9912c096910b4c.bindPopup(popup_6ed6801026a5aff9275ce66731a6a810)
+        ;
+
+        
+    
+    
+            var marker_c274d8df7f6fc93d6f0150a2817b3e2d = L.marker(
+                [11.8145966, 42.8453061],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_dd950a2363c2bb78974558b08e19f6c6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_8d125f85be4f8281bb0ff65fb06bbdbd = $(`<div id="html_8d125f85be4f8281bb0ff65fb06bbdbd" style="width: 100.0%; height: 100.0%;">Djibouti, People fully Vaccinated: 105020.0<br>Djibouti, People with at least one dose: 145050.0</div>`)[0];
+                popup_dd950a2363c2bb78974558b08e19f6c6.setContent(html_8d125f85be4f8281bb0ff65fb06bbdbd);
+            
+        
+
+        marker_c274d8df7f6fc93d6f0150a2817b3e2d.bindPopup(popup_dd950a2363c2bb78974558b08e19f6c6)
+        ;
+
+        
+    
+    
+            var marker_7c468e8ada16ddec21e3628cfc83af4e = L.marker(
+                [15.4113138, -61.3653618],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3149b88de07398defa1e7285b71a6a60 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a9281a34ef8c33115ecf3ac7e6aa0edd = $(`<div id="html_a9281a34ef8c33115ecf3ac7e6aa0edd" style="width: 100.0%; height: 100.0%;">Dominica, People fully Vaccinated: 29931.0<br>Dominica, People with at least one dose: 32403.0</div>`)[0];
+                popup_3149b88de07398defa1e7285b71a6a60.setContent(html_a9281a34ef8c33115ecf3ac7e6aa0edd);
+            
+        
+
+        marker_7c468e8ada16ddec21e3628cfc83af4e.bindPopup(popup_3149b88de07398defa1e7285b71a6a60)
+        ;
+
+        
+    
+    
+            var marker_5d4f77d602934802a03338905ebdc883 = L.marker(
+                [19.0974031, -70.3028026],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a06fa0c56ab98f5b19482e99c32a38f3 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_af8639f18209bf33cfc007303d909dbc = $(`<div id="html_af8639f18209bf33cfc007303d909dbc" style="width: 100.0%; height: 100.0%;">Dominican Republic, People fully Vaccinated: 5923507.0<br>Dominican Republic, People with at least one dose: 7184321.0</div>`)[0];
+                popup_a06fa0c56ab98f5b19482e99c32a38f3.setContent(html_af8639f18209bf33cfc007303d909dbc);
+            
+        
+
+        marker_5d4f77d602934802a03338905ebdc883.bindPopup(popup_a06fa0c56ab98f5b19482e99c32a38f3)
+        ;
+
+        
+    
+    
+            var marker_8bd10f5574c7c3bd50053cec26e590cc = L.marker(
+                [-1.3397668, -79.3666965],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_7c3ecf401f5887a6dc94a31df144225f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_b3bdd0b7756e78691e3248fed1febe68 = $(`<div id="html_b3bdd0b7756e78691e3248fed1febe68" style="width: 100.0%; height: 100.0%;">Ecuador, People fully Vaccinated: 13709968.0<br>Ecuador, People with at least one dose: 14836133.0</div>`)[0];
+                popup_7c3ecf401f5887a6dc94a31df144225f.setContent(html_b3bdd0b7756e78691e3248fed1febe68);
+            
+        
+
+        marker_8bd10f5574c7c3bd50053cec26e590cc.bindPopup(popup_7c3ecf401f5887a6dc94a31df144225f)
+        ;
+
+        
+    
+    
+            var marker_4a8551d19d1d14675b4f02213d4d09a9 = L.marker(
+                [26.2540493, 29.2675469],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b7cef923b477b4c0ef9697947e737df9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1626d5f3e945107865602ca5a9588ed3 = $(`<div id="html_1626d5f3e945107865602ca5a9588ed3" style="width: 100.0%; height: 100.0%;">Egypt, People fully Vaccinated: 31722116.0<br>Egypt, People with at least one dose: 44531740.0</div>`)[0];
+                popup_b7cef923b477b4c0ef9697947e737df9.setContent(html_1626d5f3e945107865602ca5a9588ed3);
+            
+        
+
+        marker_4a8551d19d1d14675b4f02213d4d09a9.bindPopup(popup_b7cef923b477b4c0ef9697947e737df9)
+        ;
+
+        
+    
+    
+            var marker_6fef992facec849ffd07dc24170db9ba = L.marker(
+                [13.8000382, -88.9140683],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_afcd4927b650ae15182ad67d1e06fa20 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3db204b3b9fbbdbd95d5b794086d0e82 = $(`<div id="html_3db204b3b9fbbdbd95d5b794086d0e82" style="width: 100.0%; height: 100.0%;">El Salvador, People fully Vaccinated: 4281899.0<br>El Salvador, People with at least one dose: 4582343.0</div>`)[0];
+                popup_afcd4927b650ae15182ad67d1e06fa20.setContent(html_3db204b3b9fbbdbd95d5b794086d0e82);
+            
+        
+
+        marker_6fef992facec849ffd07dc24170db9ba.bindPopup(popup_afcd4927b650ae15182ad67d1e06fa20)
+        ;
+
+        
+    
+    
+            var marker_0488f56915dc67d8159f99314b0a3a94 = L.marker(
+                [52.5310214, -1.2649062],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a27a02027c3c02d47ea01b3f4811776e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_415b955864adca4800490bb73bdbc89f = $(`<div id="html_415b955864adca4800490bb73bdbc89f" style="width: 100.0%; height: 100.0%;">England, People fully Vaccinated: 41501690.0<br>England, People with at least one dose: 44377784.0</div>`)[0];
+                popup_a27a02027c3c02d47ea01b3f4811776e.setContent(html_415b955864adca4800490bb73bdbc89f);
+            
+        
+
+        marker_0488f56915dc67d8159f99314b0a3a94.bindPopup(popup_a27a02027c3c02d47ea01b3f4811776e)
+        ;
+
+        
+    
+    
+            var marker_500a697985f54a21b8ae8ac4b5756d5f = L.marker(
+                [1.613172, 10.5170357],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9879de411ebe63a8c4135ffd9d45094d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_847181d1f9fb058efcf04888eed80cc7 = $(`<div id="html_847181d1f9fb058efcf04888eed80cc7" style="width: 100.0%; height: 100.0%;">Equatorial Guinea, People fully Vaccinated: 210706.0<br>Equatorial Guinea, People with at least one dose: 262703.0</div>`)[0];
+                popup_9879de411ebe63a8c4135ffd9d45094d.setContent(html_847181d1f9fb058efcf04888eed80cc7);
+            
+        
+
+        marker_500a697985f54a21b8ae8ac4b5756d5f.bindPopup(popup_9879de411ebe63a8c4135ffd9d45094d)
+        ;
+
+        
+    
+    
+            var marker_46d82cfed888098d89e118bbe6cf99a6 = L.marker(
+                [58.7523778, 25.3319078],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_33c7226f163d42c6d62794f76a9dd651 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_e0909fb3f8d881ff13bce7b21e180c1b = $(`<div id="html_e0909fb3f8d881ff13bce7b21e180c1b" style="width: 100.0%; height: 100.0%;">Estonia, People fully Vaccinated: 842855.0<br>Estonia, People with at least one dose: 859186.0</div>`)[0];
+                popup_33c7226f163d42c6d62794f76a9dd651.setContent(html_e0909fb3f8d881ff13bce7b21e180c1b);
+            
+        
+
+        marker_46d82cfed888098d89e118bbe6cf99a6.bindPopup(popup_33c7226f163d42c6d62794f76a9dd651)
+        ;
+
+        
+    
+    
+            var marker_f20aa8e2b4471a00386acdadad739959 = L.marker(
+                [-26.5624806, 31.3991317],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_e01bff9380ae12cf370d4a2a45ef6562 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c676185204d43ae24cf3732c125b5716 = $(`<div id="html_c676185204d43ae24cf3732c125b5716" style="width: 100.0%; height: 100.0%;">Eswatini, People fully Vaccinated: 318360.0<br>Eswatini, People with at least one dose: 387509.0</div>`)[0];
+                popup_e01bff9380ae12cf370d4a2a45ef6562.setContent(html_c676185204d43ae24cf3732c125b5716);
+            
+        
+
+        marker_f20aa8e2b4471a00386acdadad739959.bindPopup(popup_e01bff9380ae12cf370d4a2a45ef6562)
+        ;
+
+        
+    
+    
+            var marker_67ed8cd56cfcd63a6dfcc0c1cf67093c = L.marker(
+                [10.2116702, 38.6521203],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_72055515d0e40a03689244371a539482 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_fb60671c032478e251e6df16b53202cb = $(`<div id="html_fb60671c032478e251e6df16b53202cb" style="width: 100.0%; height: 100.0%;">Ethiopia, People fully Vaccinated: 20958931.0<br>Ethiopia, People with at least one dose: 24486746.0</div>`)[0];
+                popup_72055515d0e40a03689244371a539482.setContent(html_fb60671c032478e251e6df16b53202cb);
+            
+        
+
+        marker_67ed8cd56cfcd63a6dfcc0c1cf67093c.bindPopup(popup_72055515d0e40a03689244371a539482)
+        ;
+
+        
+    
+    
+            var marker_0b40cb378ffe6ac84adacfd09dbb42bc = L.marker(
+                [62.0448724, -7.0322972],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_45375ff1e0fa33bde07d1ea677c9adda = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_bf7858239805a141802a02f75e1ef272 = $(`<div id="html_bf7858239805a141802a02f75e1ef272" style="width: 100.0%; height: 100.0%;">Faeroe Islands, People fully Vaccinated: 40895.0<br>Faeroe Islands, People with at least one dose: 41715.0</div>`)[0];
+                popup_45375ff1e0fa33bde07d1ea677c9adda.setContent(html_bf7858239805a141802a02f75e1ef272);
+            
+        
+
+        marker_0b40cb378ffe6ac84adacfd09dbb42bc.bindPopup(popup_45375ff1e0fa33bde07d1ea677c9adda)
+        ;
+
+        
+    
+    
+            var marker_a579bfd9f32a1c4d60b50d1977b02a78 = L.marker(
+                [-51.9492937, -59.5383657],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b7afdcf1964af9763b48e107039644eb = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_8110155e7cff68a551fb98b60e8d00bc = $(`<div id="html_8110155e7cff68a551fb98b60e8d00bc" style="width: 100.0%; height: 100.0%;">Falkland Islands, People fully Vaccinated: 1775.0<br>Falkland Islands, People with at least one dose: 2632.0</div>`)[0];
+                popup_b7afdcf1964af9763b48e107039644eb.setContent(html_8110155e7cff68a551fb98b60e8d00bc);
+            
+        
+
+        marker_a579bfd9f32a1c4d60b50d1977b02a78.bindPopup(popup_b7afdcf1964af9763b48e107039644eb)
+        ;
+
+        
+    
+    
+            var marker_8f70a533061955bbcf5f36929fe145f3 = L.marker(
+                [-18.1239696, 179.0122737],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_17b96aa11f6e601b708c7ed461fa96f3 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f0b11f947aeed3e485b7d2a36b42b49c = $(`<div id="html_f0b11f947aeed3e485b7d2a36b42b49c" style="width: 100.0%; height: 100.0%;">Fiji, People fully Vaccinated: 627451.0<br>Fiji, People with at least one dose: 680784.0</div>`)[0];
+                popup_17b96aa11f6e601b708c7ed461fa96f3.setContent(html_f0b11f947aeed3e485b7d2a36b42b49c);
+            
+        
+
+        marker_8f70a533061955bbcf5f36929fe145f3.bindPopup(popup_17b96aa11f6e601b708c7ed461fa96f3)
+        ;
+
+        
+    
+    
+            var marker_816fc872c670d7957be658be7cd844d2 = L.marker(
+                [63.2467777, 25.9209164],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_365c9800da8472a23dcaa1cc77521ec7 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_63ff9890720f78383a9cf5cdbc31eb8b = $(`<div id="html_63ff9890720f78383a9cf5cdbc31eb8b" style="width: 100.0%; height: 100.0%;">Finland, People fully Vaccinated: 4308827.0<br>Finland, People with at least one dose: 4505614.0</div>`)[0];
+                popup_365c9800da8472a23dcaa1cc77521ec7.setContent(html_63ff9890720f78383a9cf5cdbc31eb8b);
+            
+        
+
+        marker_816fc872c670d7957be658be7cd844d2.bindPopup(popup_365c9800da8472a23dcaa1cc77521ec7)
+        ;
+
+        
+    
+    
+            var marker_979976a7ba5b3cb48f213e51dc25a79f = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1b44d2b5d4e2dcde6036a83b1fde695b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_70c40c641f108f342e9ef9abb6d48780 = $(`<div id="html_70c40c641f108f342e9ef9abb6d48780" style="width: 100.0%; height: 100.0%;">France, People fully Vaccinated: 52438706.0<br>France, People with at least one dose: 53993210.0</div>`)[0];
+                popup_1b44d2b5d4e2dcde6036a83b1fde695b.setContent(html_70c40c641f108f342e9ef9abb6d48780);
+            
+        
+
+        marker_979976a7ba5b3cb48f213e51dc25a79f.bindPopup(popup_1b44d2b5d4e2dcde6036a83b1fde695b)
+        ;
+
+        
+    
+    
+            var marker_dc23ce32c2b290c2d71ccc2a727b57c0 = L.marker(
+                [-17.0243749, -144.6434898],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f5677a50d9d676638fd8cfbbf9e97fa3 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c00f2379eeded76b256137eb956a9297 = $(`<div id="html_c00f2379eeded76b256137eb956a9297" style="width: 100.0%; height: 100.0%;">French Polynesia, People fully Vaccinated: 180807.0<br>French Polynesia, People with at least one dose: 186250.0</div>`)[0];
+                popup_f5677a50d9d676638fd8cfbbf9e97fa3.setContent(html_c00f2379eeded76b256137eb956a9297);
+            
+        
+
+        marker_dc23ce32c2b290c2d71ccc2a727b57c0.bindPopup(popup_f5677a50d9d676638fd8cfbbf9e97fa3)
+        ;
+
+        
+    
+    
+            var marker_0989034c9c95554acc18121e163f708a = L.marker(
+                [13.470062, -15.4900464],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a4303ea03800278f2a9996af4c961ff1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_b6a5dc7b1cacfe8b0a81ccc38b59b7a9 = $(`<div id="html_b6a5dc7b1cacfe8b0a81ccc38b59b7a9" style="width: 100.0%; height: 100.0%;">Gambia, People fully Vaccinated: 318161.0<br>Gambia, People with at least one dose: 331266.0</div>`)[0];
+                popup_a4303ea03800278f2a9996af4c961ff1.setContent(html_b6a5dc7b1cacfe8b0a81ccc38b59b7a9);
+            
+        
+
+        marker_0989034c9c95554acc18121e163f708a.bindPopup(popup_a4303ea03800278f2a9996af4c961ff1)
+        ;
+
+        
+    
+    
+            var marker_5938a167ea25b41b567f477cdba87fd1 = L.marker(
+                [32.3293809, -83.1137366],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_027f80b87460db0b00e3409c448d61ad = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a823058528a9c7bd6aad5cc3b9be1a45 = $(`<div id="html_a823058528a9c7bd6aad5cc3b9be1a45" style="width: 100.0%; height: 100.0%;">Georgia, People fully Vaccinated: 1256517.0<br>Georgia, People with at least one dose: 1600698.0</div>`)[0];
+                popup_027f80b87460db0b00e3409c448d61ad.setContent(html_a823058528a9c7bd6aad5cc3b9be1a45);
+            
+        
+
+        marker_5938a167ea25b41b567f477cdba87fd1.bindPopup(popup_027f80b87460db0b00e3409c448d61ad)
+        ;
+
+        
+    
+    
+            var marker_fab5ebecadc6f214abb593cbe209feff = L.marker(
+                [51.1638175, 10.4478313],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0bd2fbb9ec29a165a579e841f12525c4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_454cf12799c8e8b79fb6f4cf01cf8437 = $(`<div id="html_454cf12799c8e8b79fb6f4cf01cf8437" style="width: 100.0%; height: 100.0%;">Germany, People fully Vaccinated: 63142649.0<br>Germany, People with at least one dose: 63664250.0</div>`)[0];
+                popup_0bd2fbb9ec29a165a579e841f12525c4.setContent(html_454cf12799c8e8b79fb6f4cf01cf8437);
+            
+        
+
+        marker_fab5ebecadc6f214abb593cbe209feff.bindPopup(popup_0bd2fbb9ec29a165a579e841f12525c4)
+        ;
+
+        
+    
+    
+            var marker_dd72b207744e4b3b3a8babfdcd1c347b = L.marker(
+                [36.1285933, -5.3474761],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_e8d0ce425882c5901ae8fe48162c0ce4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a6fca98e87156fa1958114375dd8fe1f = $(`<div id="html_a6fca98e87156fa1958114375dd8fe1f" style="width: 100.0%; height: 100.0%;">Gibraltar, People fully Vaccinated: 41228.0<br>Gibraltar, People with at least one dose: 42034.0</div>`)[0];
+                popup_e8d0ce425882c5901ae8fe48162c0ce4.setContent(html_a6fca98e87156fa1958114375dd8fe1f);
+            
+        
+
+        marker_dd72b207744e4b3b3a8babfdcd1c347b.bindPopup(popup_e8d0ce425882c5901ae8fe48162c0ce4)
+        ;
+
+        
+    
+    
+            var marker_15ce5ff407c231cc0ec8868facfee3eb = L.marker(
+                [38.9953683, 21.9877132],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_bfd6bd0094fcc3b570d008db9c33ee04 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_445c7d4ac0b9e7554ba218c8c7348443 = $(`<div id="html_445c7d4ac0b9e7554ba218c8c7348443" style="width: 100.0%; height: 100.0%;">Greece, People fully Vaccinated: 7592528.0<br>Greece, People with at least one dose: 7896367.0</div>`)[0];
+                popup_bfd6bd0094fcc3b570d008db9c33ee04.setContent(html_445c7d4ac0b9e7554ba218c8c7348443);
+            
+        
+
+        marker_15ce5ff407c231cc0ec8868facfee3eb.bindPopup(popup_bfd6bd0094fcc3b570d008db9c33ee04)
+        ;
+
+        
+    
+    
+            var marker_7b67a5d3a85ec86be61298987fde8b11 = L.marker(
+                [77.6192349, -42.8125967],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_80dab118bfe71f227c87b9d4a1ab5fb6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d98761e149e9244fc7d26516b757cd32 = $(`<div id="html_d98761e149e9244fc7d26516b757cd32" style="width: 100.0%; height: 100.0%;">Greenland, People fully Vaccinated: 38502.0<br>Greenland, People with at least one dose: 41243.0</div>`)[0];
+                popup_80dab118bfe71f227c87b9d4a1ab5fb6.setContent(html_d98761e149e9244fc7d26516b757cd32);
+            
+        
+
+        marker_7b67a5d3a85ec86be61298987fde8b11.bindPopup(popup_80dab118bfe71f227c87b9d4a1ab5fb6)
+        ;
+
+        
+    
+    
+            var marker_bc53d38acf113a15b42ab1a9c338ece2 = L.marker(
+                [12.1360374, -61.6904045],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_602d08f5432e49ad998097f15b5a9be0 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5b146d4d7d3669eabe9e223692f5e2dd = $(`<div id="html_5b146d4d7d3669eabe9e223692f5e2dd" style="width: 100.0%; height: 100.0%;">Grenada, People fully Vaccinated: 37915.0<br>Grenada, People with at least one dose: 43292.0</div>`)[0];
+                popup_602d08f5432e49ad998097f15b5a9be0.setContent(html_5b146d4d7d3669eabe9e223692f5e2dd);
+            
+        
+
+        marker_bc53d38acf113a15b42ab1a9c338ece2.bindPopup(popup_602d08f5432e49ad998097f15b5a9be0)
+        ;
+
+        
+    
+    
+            var marker_ab112646b2fabb50fa11ee2224c26316 = L.marker(
+                [15.5855545, -90.345759],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_41fbda8214e6fe9a6faed2e12d071641 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_b32cb15d4415e4a547e4752190f4155b = $(`<div id="html_b32cb15d4415e4a547e4752190f4155b" style="width: 100.0%; height: 100.0%;">Guatemala, People fully Vaccinated: 5929957.0<br>Guatemala, People with at least one dose: 7624143.0</div>`)[0];
+                popup_41fbda8214e6fe9a6faed2e12d071641.setContent(html_b32cb15d4415e4a547e4752190f4155b);
+            
+        
+
+        marker_ab112646b2fabb50fa11ee2224c26316.bindPopup(popup_41fbda8214e6fe9a6faed2e12d071641)
+        ;
+
+        
+    
+    
+            var marker_61408db649eeff4f998f8d9a99fffdea = L.marker(
+                [10.7226226, -10.7083587],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_2225aa05a99d622340e7835c9cb558e0 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_35addae544830e76878a7c6a0384070a = $(`<div id="html_35addae544830e76878a7c6a0384070a" style="width: 100.0%; height: 100.0%;">Guinea, People fully Vaccinated: 2480075.0<br>Guinea, People with at least one dose: 3472605.0</div>`)[0];
+                popup_2225aa05a99d622340e7835c9cb558e0.setContent(html_35addae544830e76878a7c6a0384070a);
+            
+        
+
+        marker_61408db649eeff4f998f8d9a99fffdea.bindPopup(popup_2225aa05a99d622340e7835c9cb558e0)
+        ;
+
+        
+    
+    
+            var marker_02812e64a8035aaf8b2c465e79eec149 = L.marker(
+                [12.100035, -14.9000214],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_8873fa478cf9d07c32675b3cf518aeec = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3405e194fa8e27e75b01ce7e62168da3 = $(`<div id="html_3405e194fa8e27e75b01ce7e62168da3" style="width: 100.0%; height: 100.0%;">Guinea-Bissau, People fully Vaccinated: 341495.0<br>Guinea-Bissau, People with at least one dose: 519455.0</div>`)[0];
+                popup_8873fa478cf9d07c32675b3cf518aeec.setContent(html_3405e194fa8e27e75b01ce7e62168da3);
+            
+        
+
+        marker_02812e64a8035aaf8b2c465e79eec149.bindPopup(popup_8873fa478cf9d07c32675b3cf518aeec)
+        ;
+
+        
+    
+    
+            var marker_fc2b373003fd0dfb2e295601b287e339 = L.marker(
+                [4.8417097, -58.6416891],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_18d6151444f35c2680d5da734e4eb86d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_760c7a97e7af04016c7b11574d268383 = $(`<div id="html_760c7a97e7af04016c7b11574d268383" style="width: 100.0%; height: 100.0%;">Guyana, People fully Vaccinated: 360587.0<br>Guyana, People with at least one dose: 471864.0</div>`)[0];
+                popup_18d6151444f35c2680d5da734e4eb86d.setContent(html_760c7a97e7af04016c7b11574d268383);
+            
+        
+
+        marker_fc2b373003fd0dfb2e295601b287e339.bindPopup(popup_18d6151444f35c2680d5da734e4eb86d)
+        ;
+
+        
+    
+    
+            var marker_bf0c9a4b182f0d1ae13f76cccefa3286 = L.marker(
+                [19.1399952, -72.3570972],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_fe1f282129c160f0a7fbcd98fc8f6cfb = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_41984440db89f0f54a976467401a4e76 = $(`<div id="html_41984440db89f0f54a976467401a4e76" style="width: 100.0%; height: 100.0%;">Haiti, People fully Vaccinated: 112335.0<br>Haiti, People with at least one dose: 163710.0</div>`)[0];
+                popup_fe1f282129c160f0a7fbcd98fc8f6cfb.setContent(html_41984440db89f0f54a976467401a4e76);
+            
+        
+
+        marker_bf0c9a4b182f0d1ae13f76cccefa3286.bindPopup(popup_fe1f282129c160f0a7fbcd98fc8f6cfb)
+        ;
+
+        
+    
+    
+            var marker_23099801a35d0f0cb7dd5145f4b654e1 = L.marker(
+                [15.2572432, -86.0755145],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_4d92d765af29dc2989d42c38053eef07 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2cad4a295678c30b22559701a3b34045 = $(`<div id="html_2cad4a295678c30b22559701a3b34045" style="width: 100.0%; height: 100.0%;">Honduras, People fully Vaccinated: 4777999.0<br>Honduras, People with at least one dose: 5377876.0</div>`)[0];
+                popup_4d92d765af29dc2989d42c38053eef07.setContent(html_2cad4a295678c30b22559701a3b34045);
+            
+        
+
+        marker_23099801a35d0f0cb7dd5145f4b654e1.bindPopup(popup_4d92d765af29dc2989d42c38053eef07)
+        ;
+
+        
+    
+    
+            var marker_2fe7ed7e694897e4f63f774b428894c6 = L.marker(
+                [22.2793278, 114.1628131],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_e1bf24aa926929cb16c51817b12588b2 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_148bde7e94f5231c48b1c297a976f76b = $(`<div id="html_148bde7e94f5231c48b1c297a976f76b" style="width: 100.0%; height: 100.0%;">Hong Kong, People fully Vaccinated: 5739533.0<br>Hong Kong, People with at least one dose: 6502770.0</div>`)[0];
+                popup_e1bf24aa926929cb16c51817b12588b2.setContent(html_148bde7e94f5231c48b1c297a976f76b);
+            
+        
+
+        marker_2fe7ed7e694897e4f63f774b428894c6.bindPopup(popup_e1bf24aa926929cb16c51817b12588b2)
+        ;
+
+        
+    
+    
+            var marker_496127b19366fb540e0d93c61d80f0b8 = L.marker(
+                [64.9841821, -18.1059013],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9515a6c088ac5ab4163078a491195101 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_168c787d174baabd68838ec64229a8b3 = $(`<div id="html_168c787d174baabd68838ec64229a8b3" style="width: 100.0%; height: 100.0%;">Iceland, People fully Vaccinated: 290193.0<br>Iceland, People with at least one dose: 309770.0</div>`)[0];
+                popup_9515a6c088ac5ab4163078a491195101.setContent(html_168c787d174baabd68838ec64229a8b3);
+            
+        
+
+        marker_496127b19366fb540e0d93c61d80f0b8.bindPopup(popup_9515a6c088ac5ab4163078a491195101)
+        ;
+
+        
+    
+    
+            var marker_547cec1b7e1a198e80c18d5914eb083d = L.marker(
+                [22.3511148, 78.6677428],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5ffdba1892e9787c6b9b5737b0eae0e9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cf7dc3fcf7b4f6bc8f4efae08719b490 = $(`<div id="html_cf7dc3fcf7b4f6bc8f4efae08719b490" style="width: 100.0%; height: 100.0%;">India, People fully Vaccinated: 828229455.0<br>India, People with at least one dose: 984838143.0</div>`)[0];
+                popup_5ffdba1892e9787c6b9b5737b0eae0e9.setContent(html_cf7dc3fcf7b4f6bc8f4efae08719b490);
+            
+        
+
+        marker_547cec1b7e1a198e80c18d5914eb083d.bindPopup(popup_5ffdba1892e9787c6b9b5737b0eae0e9)
+        ;
+
+        
+    
+    
+            var marker_90087592ef3c29f6c161f631cfd9b09b = L.marker(
+                [-2.4833826, 117.8902853],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d8f401bfcdf6ded874fa38b29c22588c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f81cceec38c9ec296419c9e7b0f0af42 = $(`<div id="html_f81cceec38c9ec296419c9e7b0f0af42" style="width: 100.0%; height: 100.0%;">Indonesia, People fully Vaccinated: 158830466.0<br>Indonesia, People with at least one dose: 196240871.0</div>`)[0];
+                popup_d8f401bfcdf6ded874fa38b29c22588c.setContent(html_f81cceec38c9ec296419c9e7b0f0af42);
+            
+        
+
+        marker_90087592ef3c29f6c161f631cfd9b09b.bindPopup(popup_d8f401bfcdf6ded874fa38b29c22588c)
+        ;
+
+        
+    
+    
+            var marker_b26e3bd31572f7cec23c0490bc5b5476 = L.marker(
+                [32.6475314, 54.5643516],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_bc8b9f0a9920fa4a9580d9df3e711f84 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ca87ccdcadfa8ea788401d96d89b0bb4 = $(`<div id="html_ca87ccdcadfa8ea788401d96d89b0bb4" style="width: 100.0%; height: 100.0%;">Iran, People fully Vaccinated: 56810058.0<br>Iran, People with at least one dose: 63872818.0</div>`)[0];
+                popup_bc8b9f0a9920fa4a9580d9df3e711f84.setContent(html_ca87ccdcadfa8ea788401d96d89b0bb4);
+            
+        
+
+        marker_b26e3bd31572f7cec23c0490bc5b5476.bindPopup(popup_bc8b9f0a9920fa4a9580d9df3e711f84)
+        ;
+
+        
+    
+    
+            var marker_dfaeffb27dd65aafffb389d4502fdc3a = L.marker(
+                [33.0955793, 44.1749775],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_727298c1f0d6e55a61fd06774ac696c9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d25623a1b3c57fc92424fcb9d158f5fb = $(`<div id="html_d25623a1b3c57fc92424fcb9d158f5fb" style="width: 100.0%; height: 100.0%;">Iraq, People fully Vaccinated: 7121524.0<br>Iraq, People with at least one dose: 10266670.0</div>`)[0];
+                popup_727298c1f0d6e55a61fd06774ac696c9.setContent(html_d25623a1b3c57fc92424fcb9d158f5fb);
+            
+        
+
+        marker_dfaeffb27dd65aafffb389d4502fdc3a.bindPopup(popup_727298c1f0d6e55a61fd06774ac696c9)
+        ;
+
+        
+    
+    
+            var marker_98108918726026a0262cd48563cdaea9 = L.marker(
+                [52.865196, -7.9794599],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_e8d640dedc66c9711fa0b08d01ab69b4 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d5556234ab7eaf795dc35778f1d31d60 = $(`<div id="html_d5556234ab7eaf795dc35778f1d31d60" style="width: 100.0%; height: 100.0%;">Ireland, People fully Vaccinated: 4007756.0<br>Ireland, People with at least one dose: 4069002.0</div>`)[0];
+                popup_e8d640dedc66c9711fa0b08d01ab69b4.setContent(html_d5556234ab7eaf795dc35778f1d31d60);
+            
+        
+
+        marker_98108918726026a0262cd48563cdaea9.bindPopup(popup_e8d640dedc66c9711fa0b08d01ab69b4)
+        ;
+
+        
+    
+    
+            var marker_7652c29198cfc8f26009f1cc659282b0 = L.marker(
+                [54.1936805, -4.5591148],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ae6fac5eee72fbda8f00b9c79ff1b3b9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f0b6ae7196bd4ad0ee744553fec10725 = $(`<div id="html_f0b6ae7196bd4ad0ee744553fec10725" style="width: 100.0%; height: 100.0%;">Isle of Man, People fully Vaccinated: 66975.0<br>Isle of Man, People with at least one dose: 69518.0</div>`)[0];
+                popup_ae6fac5eee72fbda8f00b9c79ff1b3b9.setContent(html_f0b6ae7196bd4ad0ee744553fec10725);
+            
+        
+
+        marker_7652c29198cfc8f26009f1cc659282b0.bindPopup(popup_ae6fac5eee72fbda8f00b9c79ff1b3b9)
+        ;
+
+        
+    
+    
+            var marker_59a0624d756e8f056eb0e51f55bc771f = L.marker(
+                [30.8124247, 34.8594762],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_8f72a7e32939f00d9e5b80df66ff4e32 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c7c2158a35d63deda31d29d251d341f6 = $(`<div id="html_c7c2158a35d63deda31d29d251d341f6" style="width: 100.0%; height: 100.0%;">Israel, People fully Vaccinated: 6128503.0<br>Israel, People with at least one dose: 6702717.0</div>`)[0];
+                popup_8f72a7e32939f00d9e5b80df66ff4e32.setContent(html_c7c2158a35d63deda31d29d251d341f6);
+            
+        
+
+        marker_59a0624d756e8f056eb0e51f55bc771f.bindPopup(popup_8f72a7e32939f00d9e5b80df66ff4e32)
+        ;
+
+        
+    
+    
+            var marker_d82ac4a2a9584ea8989cb5df6d824b93 = L.marker(
+                [42.6384261, 12.674297],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3894bce32f1daa9d787379e8236a79ab = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a981cd8aeddd6ec67d6858526060766f = $(`<div id="html_a981cd8aeddd6ec67d6858526060766f" style="width: 100.0%; height: 100.0%;">Italy, People fully Vaccinated: 47817555.0<br>Italy, People with at least one dose: 50723408.0</div>`)[0];
+                popup_3894bce32f1daa9d787379e8236a79ab.setContent(html_a981cd8aeddd6ec67d6858526060766f);
+            
+        
+
+        marker_d82ac4a2a9584ea8989cb5df6d824b93.bindPopup(popup_3894bce32f1daa9d787379e8236a79ab)
+        ;
+
+        
+    
+    
+            var marker_5d4408aedb620ba0f80690866cfaaae9 = L.marker(
+                [18.1850507, -77.3947693],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_87e6842c1a63acc69aed201cfca67e2a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_4cb06ebd1d64679075146e400852a77c = $(`<div id="html_4cb06ebd1d64679075146e400852a77c" style="width: 100.0%; height: 100.0%;">Jamaica, People fully Vaccinated: 672613.0<br>Jamaica, People with at least one dose: 780377.0</div>`)[0];
+                popup_87e6842c1a63acc69aed201cfca67e2a.setContent(html_4cb06ebd1d64679075146e400852a77c);
+            
+        
+
+        marker_5d4408aedb620ba0f80690866cfaaae9.bindPopup(popup_87e6842c1a63acc69aed201cfca67e2a)
+        ;
+
+        
+    
+    
+            var marker_95de1edb2485a5a12a53538b7be58f46 = L.marker(
+                [36.5748441, 139.2394179],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_db1786210acce53dd81c5ab5d36f7e49 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_e3e23fcdca02f4b53131a18516e2c2d0 = $(`<div id="html_e3e23fcdca02f4b53131a18516e2c2d0" style="width: 100.0%; height: 100.0%;">Japan, People fully Vaccinated: 100633737.0<br>Japan, People with at least one dose: 102467506.0</div>`)[0];
+                popup_db1786210acce53dd81c5ab5d36f7e49.setContent(html_e3e23fcdca02f4b53131a18516e2c2d0);
+            
+        
+
+        marker_95de1edb2485a5a12a53538b7be58f46.bindPopup(popup_db1786210acce53dd81c5ab5d36f7e49)
+        ;
+
+        
+    
+    
+            var marker_9f69d597253e8e089d93d080f6adc6d6 = L.marker(
+                [49.2214561, -2.1358386],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_570b660261b7211850e753ecb4190f2a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_307d5204fad9552595458e15eccc8722 = $(`<div id="html_307d5204fad9552595458e15eccc8722" style="width: 100.0%; height: 100.0%;">Jersey, People fully Vaccinated: 79327.0<br>Jersey, People with at least one dose: 82777.0</div>`)[0];
+                popup_570b660261b7211850e753ecb4190f2a.setContent(html_307d5204fad9552595458e15eccc8722);
+            
+        
+
+        marker_9f69d597253e8e089d93d080f6adc6d6.bindPopup(popup_570b660261b7211850e753ecb4190f2a)
+        ;
+
+        
+    
+    
+            var marker_5ce5b6dacf7a63144e5f6e4c8199accf = L.marker(
+                [31.1667049, 36.941628],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ca003a3b931551525c1a4ffd3284f200 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_243c28c30dc85813fa0c8092133dd03c = $(`<div id="html_243c28c30dc85813fa0c8092133dd03c" style="width: 100.0%; height: 100.0%;">Jordan, People fully Vaccinated: 4412071.0<br>Jordan, People with at least one dose: 4714575.0</div>`)[0];
+                popup_ca003a3b931551525c1a4ffd3284f200.setContent(html_243c28c30dc85813fa0c8092133dd03c);
+            
+        
+
+        marker_5ce5b6dacf7a63144e5f6e4c8199accf.bindPopup(popup_ca003a3b931551525c1a4ffd3284f200)
+        ;
+
+        
+    
+    
+            var marker_8f5cb5a5f435af18102b5574885563bf = L.marker(
+                [1.4419683, 38.4313975],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_69ad2dc6256d7878163fa4d2711c4bab = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_84e325c4d20f2e207daa6c0484dcc341 = $(`<div id="html_84e325c4d20f2e207daa6c0484dcc341" style="width: 100.0%; height: 100.0%;">Kenya, People fully Vaccinated: 8090985.0<br>Kenya, People with at least one dose: 11696182.0</div>`)[0];
+                popup_69ad2dc6256d7878163fa4d2711c4bab.setContent(html_84e325c4d20f2e207daa6c0484dcc341);
+            
+        
+
+        marker_8f5cb5a5f435af18102b5574885563bf.bindPopup(popup_69ad2dc6256d7878163fa4d2711c4bab)
+        ;
+
+        
+    
+    
+            var marker_4c5da91d7109cfd63c479471900e2ea0 = L.marker(
+                [0.3448612, 173.6641773],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_36de203410f20dec10f2a777008fab83 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c180121d01595e92ed76ef08208d755e = $(`<div id="html_c180121d01595e92ed76ef08208d755e" style="width: 100.0%; height: 100.0%;">Kiribati, People fully Vaccinated: 55333.0<br>Kiribati, People with at least one dose: 78620.0</div>`)[0];
+                popup_36de203410f20dec10f2a777008fab83.setContent(html_c180121d01595e92ed76ef08208d755e);
+            
+        
+
+        marker_4c5da91d7109cfd63c479471900e2ea0.bindPopup(popup_36de203410f20dec10f2a777008fab83)
+        ;
+
+        
+    
+    
+            var marker_63b7bf71930f0e22ed757fcab313c261 = L.marker(
+                [42.5869578, 20.9021231],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_70ade385e22c6ea33e772fae0bbcc258 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_b8e2e7beec3c96cf8a0f3edd44c8a71b = $(`<div id="html_b8e2e7beec3c96cf8a0f3edd44c8a71b" style="width: 100.0%; height: 100.0%;">Kosovo, People fully Vaccinated: 820317.0<br>Kosovo, People with at least one dose: 901602.0</div>`)[0];
+                popup_70ade385e22c6ea33e772fae0bbcc258.setContent(html_b8e2e7beec3c96cf8a0f3edd44c8a71b);
+            
+        
+
+        marker_63b7bf71930f0e22ed757fcab313c261.bindPopup(popup_70ade385e22c6ea33e772fae0bbcc258)
+        ;
+
+        
+    
+    
+            var marker_5fee7c8329a83eec3d88ae75814590bd = L.marker(
+                [29.2733964, 47.4979476],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5572491fc00506b7cc16e19fdc1f7cd5 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_0ccbd0cfcbd0181868e06f1b6eaceadd = $(`<div id="html_0ccbd0cfcbd0181868e06f1b6eaceadd" style="width: 100.0%; height: 100.0%;">Kuwait, People fully Vaccinated: 3283891.0<br>Kuwait, People with at least one dose: 3410314.0</div>`)[0];
+                popup_5572491fc00506b7cc16e19fdc1f7cd5.setContent(html_0ccbd0cfcbd0181868e06f1b6eaceadd);
+            
+        
+
+        marker_5fee7c8329a83eec3d88ae75814590bd.bindPopup(popup_5572491fc00506b7cc16e19fdc1f7cd5)
+        ;
+
+        
+    
+    
+            var marker_bf987c4d8d45acb129792e7ab8531374 = L.marker(
+                [41.5089324, 74.724091],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3212cfc9be7342900c54466572a90224 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_4b9dbc80011752f646c9432c3b5ebb25 = $(`<div id="html_4b9dbc80011752f646c9432c3b5ebb25" style="width: 100.0%; height: 100.0%;">Kyrgyzstan, People fully Vaccinated: 1237551.0<br>Kyrgyzstan, People with at least one dose: 1488749.0</div>`)[0];
+                popup_3212cfc9be7342900c54466572a90224.setContent(html_4b9dbc80011752f646c9432c3b5ebb25);
+            
+        
+
+        marker_bf987c4d8d45acb129792e7ab8531374.bindPopup(popup_3212cfc9be7342900c54466572a90224)
+        ;
+
+        
+    
+    
+            var marker_65404a89e1ec7fa2817251285b8f858f = L.marker(
+                [20.0171109, 103.378253],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_041e2a3ac529ff35deec73f076d4ff69 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_16617ea88e9f7065cf9e0c8dd5e54546 = $(`<div id="html_16617ea88e9f7065cf9e0c8dd5e54546" style="width: 100.0%; height: 100.0%;">Laos, People fully Vaccinated: 4455505.0<br>Laos, People with at least one dose: 5593478.0</div>`)[0];
+                popup_041e2a3ac529ff35deec73f076d4ff69.setContent(html_16617ea88e9f7065cf9e0c8dd5e54546);
+            
+        
+
+        marker_65404a89e1ec7fa2817251285b8f858f.bindPopup(popup_041e2a3ac529ff35deec73f076d4ff69)
+        ;
+
+        
+    
+    
+            var marker_667ccbdd4ff00e8441e7a2a7e80fd0d0 = L.marker(
+                [56.8406494, 24.7537645],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_bd0a86155c224782d5fc1f1221284ee2 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_96aaa5c0c913dad6ee43b66eea24fd4c = $(`<div id="html_96aaa5c0c913dad6ee43b66eea24fd4c" style="width: 100.0%; height: 100.0%;">Latvia, People fully Vaccinated: 1302192.0<br>Latvia, People with at least one dose: 1344075.0</div>`)[0];
+                popup_bd0a86155c224782d5fc1f1221284ee2.setContent(html_96aaa5c0c913dad6ee43b66eea24fd4c);
+            
+        
+
+        marker_667ccbdd4ff00e8441e7a2a7e80fd0d0.bindPopup(popup_bd0a86155c224782d5fc1f1221284ee2)
+        ;
+
+        
+    
+    
+            var marker_04e760f46abe55d6971c9ef347966f4b = L.marker(
+                [33.8750629, 35.843409],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1c3ade64bc4bc2e3e5668f0c9b66b9a5 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_e3c7576d4ff1e359cce8cb77fdd9a8a2 = $(`<div id="html_e3c7576d4ff1e359cce8cb77fdd9a8a2" style="width: 100.0%; height: 100.0%;">Lebanon, People fully Vaccinated: 2201517.0<br>Lebanon, People with at least one dose: 2516012.0</div>`)[0];
+                popup_1c3ade64bc4bc2e3e5668f0c9b66b9a5.setContent(html_e3c7576d4ff1e359cce8cb77fdd9a8a2);
+            
+        
+
+        marker_04e760f46abe55d6971c9ef347966f4b.bindPopup(popup_1c3ade64bc4bc2e3e5668f0c9b66b9a5)
+        ;
+
+        
+    
+    
+            var marker_ee3773399cf96dc5a752355ce0484ac5 = L.marker(
+                [-29.6039267, 28.3350193],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ed757e458cdb78cd21893798b9565211 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_eb2138ead51fbb60817ce60e56522d40 = $(`<div id="html_eb2138ead51fbb60817ce60e56522d40" style="width: 100.0%; height: 100.0%;">Lesotho, People fully Vaccinated: 727528.0<br>Lesotho, People with at least one dose: 782175.0</div>`)[0];
+                popup_ed757e458cdb78cd21893798b9565211.setContent(html_eb2138ead51fbb60817ce60e56522d40);
+            
+        
+
+        marker_ee3773399cf96dc5a752355ce0484ac5.bindPopup(popup_ed757e458cdb78cd21893798b9565211)
+        ;
+
+        
+    
+    
+            var marker_723129b0a9687240fa7b22d574e23d73 = L.marker(
+                [5.7499721, -9.3658524],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d38893d7093cabd8f22ec2706c3dc944 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_aedcf5acf960e9f64805930dcdab319f = $(`<div id="html_aedcf5acf960e9f64805930dcdab319f" style="width: 100.0%; height: 100.0%;">Liberia, People fully Vaccinated: 1015633.0<br>Liberia, People with at least one dose: 1047889.0</div>`)[0];
+                popup_d38893d7093cabd8f22ec2706c3dc944.setContent(html_aedcf5acf960e9f64805930dcdab319f);
+            
+        
+
+        marker_723129b0a9687240fa7b22d574e23d73.bindPopup(popup_d38893d7093cabd8f22ec2706c3dc944)
+        ;
+
+        
+    
+    
+            var marker_5ef52540cebd2fbeead9277483df29b1 = L.marker(
+                [26.8234472, 18.1236723],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b9999e36082ac625772048ed02b85a9d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_47af00121e01db67efae7c8a90afaed0 = $(`<div id="html_47af00121e01db67efae7c8a90afaed0" style="width: 100.0%; height: 100.0%;">Libya, People fully Vaccinated: 1125758.0<br>Libya, People with at least one dose: 2201314.0</div>`)[0];
+                popup_b9999e36082ac625772048ed02b85a9d.setContent(html_47af00121e01db67efae7c8a90afaed0);
+            
+        
+
+        marker_5ef52540cebd2fbeead9277483df29b1.bindPopup(popup_b9999e36082ac625772048ed02b85a9d)
+        ;
+
+        
+    
+    
+            var marker_8595eb68244c266c184fcd65728609d4 = L.marker(
+                [47.1416307, 9.5531527],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_33f68b5d2a6b5a835b2bc5f8c877d41b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_250e0dda4ee9c07a239db2f7f749bc8b = $(`<div id="html_250e0dda4ee9c07a239db2f7f749bc8b" style="width: 100.0%; height: 100.0%;">Liechtenstein, People fully Vaccinated: 26395.0<br>Liechtenstein, People with at least one dose: 26721.0</div>`)[0];
+                popup_33f68b5d2a6b5a835b2bc5f8c877d41b.setContent(html_250e0dda4ee9c07a239db2f7f749bc8b);
+            
+        
+
+        marker_8595eb68244c266c184fcd65728609d4.bindPopup(popup_33f68b5d2a6b5a835b2bc5f8c877d41b)
+        ;
+
+        
+    
+    
+            var marker_71af250365cf151179b11bac4d239be5 = L.marker(
+                [55.3500003, 23.7499997],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_80f6ab43de80e8f81a541cf7ae94edd9 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c1d2408ab38166a1e1a561de328ffbc6 = $(`<div id="html_c1d2408ab38166a1e1a561de328ffbc6" style="width: 100.0%; height: 100.0%;">Lithuania, People fully Vaccinated: 1872520.0<br>Lithuania, People with at least one dose: 1948513.0</div>`)[0];
+                popup_80f6ab43de80e8f81a541cf7ae94edd9.setContent(html_c1d2408ab38166a1e1a561de328ffbc6);
+            
+        
+
+        marker_71af250365cf151179b11bac4d239be5.bindPopup(popup_80f6ab43de80e8f81a541cf7ae94edd9)
+        ;
+
+        
+    
+    
+            var marker_7a780b3769a4cfcdd3cdcfd3c2a9e328 = L.marker(
+                [22.1899448, 113.5380454],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6ff312e7c17bf04b88bd5a52de442cda = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_558038a7374ec0e28ff556918ecba9aa = $(`<div id="html_558038a7374ec0e28ff556918ecba9aa" style="width: 100.0%; height: 100.0%;">Macao, People fully Vaccinated: 509829.0<br>Macao, People with at least one dose: 579965.0</div>`)[0];
+                popup_6ff312e7c17bf04b88bd5a52de442cda.setContent(html_558038a7374ec0e28ff556918ecba9aa);
+            
+        
+
+        marker_7a780b3769a4cfcdd3cdcfd3c2a9e328.bindPopup(popup_6ff312e7c17bf04b88bd5a52de442cda)
+        ;
+
+        
+    
+    
+            var marker_6f89f654f92a7c7413d87079e0073d73 = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_8a7e779f5b4c93299ae41a5ad84ba811 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ac3a9d93859f401d30172c92f2f5a414 = $(`<div id="html_ac3a9d93859f401d30172c92f2f5a414" style="width: 100.0%; height: 100.0%;">Madagascar, People fully Vaccinated: 1050879.0<br>Madagascar, People with at least one dose: 1098703.0</div>`)[0];
+                popup_8a7e779f5b4c93299ae41a5ad84ba811.setContent(html_ac3a9d93859f401d30172c92f2f5a414);
+            
+        
+
+        marker_6f89f654f92a7c7413d87079e0073d73.bindPopup(popup_8a7e779f5b4c93299ae41a5ad84ba811)
+        ;
+
+        
+    
+    
+            var marker_0c29029d28c0ce5cde9a4ab818d53182 = L.marker(
+                [-13.2687204, 33.9301963],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_27a813220d52643b43b37e689cb89001 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7c9d8ab7a3062d0ea58d1382b98a8ba8 = $(`<div id="html_7c9d8ab7a3062d0ea58d1382b98a8ba8" style="width: 100.0%; height: 100.0%;">Malawi, People fully Vaccinated: 861888.0<br>Malawi, People with at least one dose: 1570322.0</div>`)[0];
+                popup_27a813220d52643b43b37e689cb89001.setContent(html_7c9d8ab7a3062d0ea58d1382b98a8ba8);
+            
+        
+
+        marker_0c29029d28c0ce5cde9a4ab818d53182.bindPopup(popup_27a813220d52643b43b37e689cb89001)
+        ;
+
+        
+    
+    
+            var marker_cafdd72b3d6328fd5772d88ac49021a3 = L.marker(
+                [4.5693754, 102.2656823],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_7eaf64b35caabe503a6ffb5f47ab5c36 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7ab24eeb6c99cdb19934081bc23583f3 = $(`<div id="html_7ab24eeb6c99cdb19934081bc23583f3" style="width: 100.0%; height: 100.0%;">Malaysia, People fully Vaccinated: 25801561.0<br>Malaysia, People with at least one dose: 27494218.0</div>`)[0];
+                popup_7eaf64b35caabe503a6ffb5f47ab5c36.setContent(html_7ab24eeb6c99cdb19934081bc23583f3);
+            
+        
+
+        marker_cafdd72b3d6328fd5772d88ac49021a3.bindPopup(popup_7eaf64b35caabe503a6ffb5f47ab5c36)
+        ;
+
+        
+    
+    
+            var marker_889f9fbe0221d19bb0f3870c211f83d6 = L.marker(
+                [3.7203503, 73.2244152],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b4bf0548f916b6d9497984caccb2a945 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_47e6e909d0f176315ced2956bd8b3075 = $(`<div id="html_47e6e909d0f176315ced2956bd8b3075" style="width: 100.0%; height: 100.0%;">Maldives, People fully Vaccinated: 371439.0<br>Maldives, People with at least one dose: 398348.0</div>`)[0];
+                popup_b4bf0548f916b6d9497984caccb2a945.setContent(html_47e6e909d0f176315ced2956bd8b3075);
+            
+        
+
+        marker_889f9fbe0221d19bb0f3870c211f83d6.bindPopup(popup_b4bf0548f916b6d9497984caccb2a945)
+        ;
+
+        
+    
+    
+            var marker_c6e4e4a12443dc7ccf5cd66d893376e3 = L.marker(
+                [16.3700359, -2.2900239],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_8256420581ca2be201bd9719f4f885e6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_9f911c6465948f18a6cb49c252a6106b = $(`<div id="html_9f911c6465948f18a6cb49c252a6106b" style="width: 100.0%; height: 100.0%;">Mali, People fully Vaccinated: 978690.0<br>Mali, People with at least one dose: 1331919.0</div>`)[0];
+                popup_8256420581ca2be201bd9719f4f885e6.setContent(html_9f911c6465948f18a6cb49c252a6106b);
+            
+        
+
+        marker_c6e4e4a12443dc7ccf5cd66d893376e3.bindPopup(popup_8256420581ca2be201bd9719f4f885e6)
+        ;
+
+        
+    
+    
+            var marker_a6902af04a691a77cabbcfa26ca6d4e0 = L.marker(
+                [35.8885993, 14.4476911],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_4d045d6ecd6655febe420a4a4228e761 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_78e10cf157506f6d1506a3e90b1593b7 = $(`<div id="html_78e10cf157506f6d1506a3e90b1593b7" style="width: 100.0%; height: 100.0%;">Malta, People fully Vaccinated: 466296.0<br>Malta, People with at least one dose: 473639.0</div>`)[0];
+                popup_4d045d6ecd6655febe420a4a4228e761.setContent(html_78e10cf157506f6d1506a3e90b1593b7);
+            
+        
+
+        marker_a6902af04a691a77cabbcfa26ca6d4e0.bindPopup(popup_4d045d6ecd6655febe420a4a4228e761)
+        ;
+
+        
+    
+    
+            var marker_cefcc74e7e3c8e99bdfc5ceff8424b17 = L.marker(
+                [23.6585116, -102.0077097],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d75bc9602d7a8c7f863e21255166a84f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3b8e5928c208641fcdbdbbcbdb4ef6bc = $(`<div id="html_3b8e5928c208641fcdbdbbcbdb4ef6bc" style="width: 100.0%; height: 100.0%;">Mexico, People fully Vaccinated: 79711762.0<br>Mexico, People with at least one dose: 85580293.0</div>`)[0];
+                popup_d75bc9602d7a8c7f863e21255166a84f.setContent(html_3b8e5928c208641fcdbdbbcbdb4ef6bc);
+            
+        
+
+        marker_cefcc74e7e3c8e99bdfc5ceff8424b17.bindPopup(popup_d75bc9602d7a8c7f863e21255166a84f)
+        ;
+
+        
+    
+    
+            var marker_f613badb2803ac587bfad98a576d4c95 = L.marker(
+                [43.7323492, 7.4276832],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6ad1f00c0f48cd2387dda5c2356f865a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c9d06fabee3d20c978fae54b618df4b6 = $(`<div id="html_c9d06fabee3d20c978fae54b618df4b6" style="width: 100.0%; height: 100.0%;">Monaco, People fully Vaccinated: 25667.0<br>Monaco, People with at least one dose: 28875.0</div>`)[0];
+                popup_6ad1f00c0f48cd2387dda5c2356f865a.setContent(html_c9d06fabee3d20c978fae54b618df4b6);
+            
+        
+
+        marker_f613badb2803ac587bfad98a576d4c95.bindPopup(popup_6ad1f00c0f48cd2387dda5c2356f865a)
+        ;
+
+        
+    
+    
+            var marker_d0a4db79f368a9b0eba7be14daf37bf9 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_523699aa1b9bbba2271d968853b42441 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f10af4b9eff289b552f41a9628a161e5 = $(`<div id="html_f10af4b9eff289b552f41a9628a161e5" style="width: 100.0%; height: 100.0%;">Mongolia, People fully Vaccinated: 2174463.0<br>Mongolia, People with at least one dose: 2272363.0</div>`)[0];
+                popup_523699aa1b9bbba2271d968853b42441.setContent(html_f10af4b9eff289b552f41a9628a161e5);
+            
+        
+
+        marker_d0a4db79f368a9b0eba7be14daf37bf9.bindPopup(popup_523699aa1b9bbba2271d968853b42441)
+        ;
+
+        
+    
+    
+            var marker_3f29cba1a5bde7cfe19fc606fd503dee = L.marker(
+                [42.9868853, 19.5180992],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_14dd5a549066a9dc7108e3373138543b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_96157840fe67275ce9a93078554817d6 = $(`<div id="html_96157840fe67275ce9a93078554817d6" style="width: 100.0%; height: 100.0%;">Montenegro, People fully Vaccinated: 281571.0<br>Montenegro, People with at least one dose: 289687.0</div>`)[0];
+                popup_14dd5a549066a9dc7108e3373138543b.setContent(html_96157840fe67275ce9a93078554817d6);
+            
+        
+
+        marker_3f29cba1a5bde7cfe19fc606fd503dee.bindPopup(popup_14dd5a549066a9dc7108e3373138543b)
+        ;
+
+        
+    
+    
+            var marker_8a8ec2a059a04f894cb1de7b1805bf4e = L.marker(
+                [16.7417041, -62.1916844],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6ac345e55752b1e4afbc6c792a888e56 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_da9123b9f2995d0b31bd932f75397010 = $(`<div id="html_da9123b9f2995d0b31bd932f75397010" style="width: 100.0%; height: 100.0%;">Montserrat, People fully Vaccinated: 1804.0<br>Montserrat, People with at least one dose: 1897.0</div>`)[0];
+                popup_6ac345e55752b1e4afbc6c792a888e56.setContent(html_da9123b9f2995d0b31bd932f75397010);
+            
+        
+
+        marker_8a8ec2a059a04f894cb1de7b1805bf4e.bindPopup(popup_6ac345e55752b1e4afbc6c792a888e56)
+        ;
+
+        
+    
+    
+            var marker_3805388c2e6c2e9772bf87cfe5004979 = L.marker(
+                [31.1728205, -7.3362482],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d22699817e884599289a3646f74adf92 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_fab18471882eae74b8384891eaa367ac = $(`<div id="html_fab18471882eae74b8384891eaa367ac" style="width: 100.0%; height: 100.0%;">Morocco, People fully Vaccinated: 23346308.0<br>Morocco, People with at least one dose: 24878016.0</div>`)[0];
+                popup_d22699817e884599289a3646f74adf92.setContent(html_fab18471882eae74b8384891eaa367ac);
+            
+        
+
+        marker_3805388c2e6c2e9772bf87cfe5004979.bindPopup(popup_d22699817e884599289a3646f74adf92)
+        ;
+
+        
+    
+    
+            var marker_1c7b7315d44e8958950f2a95f0beeb9f = L.marker(
+                [-19.302233, 34.9144977],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_48767a0d21b8632c5b371fd2dfa31652 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_18353d603b7525d3517d1af7baa7313c = $(`<div id="html_18353d603b7525d3517d1af7baa7313c" style="width: 100.0%; height: 100.0%;">Mozambique, People fully Vaccinated: 13130997.0<br>Mozambique, People with at least one dose: 14243939.0</div>`)[0];
+                popup_48767a0d21b8632c5b371fd2dfa31652.setContent(html_18353d603b7525d3517d1af7baa7313c);
+            
+        
+
+        marker_1c7b7315d44e8958950f2a95f0beeb9f.bindPopup(popup_48767a0d21b8632c5b371fd2dfa31652)
+        ;
+
+        
+    
+    
+            var marker_be5e0fd06cc9d75d24eb1287f93768ad = L.marker(
+                [17.1750495, 95.9999652],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_2ab1d6b7450b06e7e9892da8fbf8bacc = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c6897dc610e51d279536e26c0ebb2e33 = $(`<div id="html_c6897dc610e51d279536e26c0ebb2e33" style="width: 100.0%; height: 100.0%;">Myanmar, People fully Vaccinated: 21803150.0<br>Myanmar, People with at least one dose: 26473700.0</div>`)[0];
+                popup_2ab1d6b7450b06e7e9892da8fbf8bacc.setContent(html_c6897dc610e51d279536e26c0ebb2e33);
+            
+        
+
+        marker_be5e0fd06cc9d75d24eb1287f93768ad.bindPopup(popup_2ab1d6b7450b06e7e9892da8fbf8bacc)
+        ;
+
+        
+    
+    
+            var marker_fe50d7537f6bdcbeb4e5f40d372964ec = L.marker(
+                [-23.2335499, 17.3231107],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_416bbb866bac3ac169a1cece554c861b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_6225330e22a3d85cf12f19e2ccd5b458 = $(`<div id="html_6225330e22a3d85cf12f19e2ccd5b458" style="width: 100.0%; height: 100.0%;">Namibia, People fully Vaccinated: 383923.0<br>Namibia, People with at least one dose: 450833.0</div>`)[0];
+                popup_416bbb866bac3ac169a1cece554c861b.setContent(html_6225330e22a3d85cf12f19e2ccd5b458);
+            
+        
+
+        marker_fe50d7537f6bdcbeb4e5f40d372964ec.bindPopup(popup_416bbb866bac3ac169a1cece554c861b)
+        ;
+
+        
+    
+    
+            var marker_32fd4e9bf9de8fdf21f8e1742645744f = L.marker(
+                [-0.5252306, 166.9324426],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0a9856ac895b33843971eb2429a0da79 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_9e1c8dbf96c3b2b9641bbeb747ade326 = $(`<div id="html_9e1c8dbf96c3b2b9641bbeb747ade326" style="width: 100.0%; height: 100.0%;">Nauru, People fully Vaccinated: 7674.0<br>Nauru, People with at least one dose: 9150.0</div>`)[0];
+                popup_0a9856ac895b33843971eb2429a0da79.setContent(html_9e1c8dbf96c3b2b9641bbeb747ade326);
+            
+        
+
+        marker_32fd4e9bf9de8fdf21f8e1742645744f.bindPopup(popup_0a9856ac895b33843971eb2429a0da79)
+        ;
+
+        
+    
+    
+            var marker_b5f68b2088710020f43947ef7e75c25d = L.marker(
+                [28.1083929, 84.0917139],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_28812fcc4aaa7d5f384563ad3a769def = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a75e7cb94f8ee6ed37f65cae2b9b1eb1 = $(`<div id="html_a75e7cb94f8ee6ed37f65cae2b9b1eb1" style="width: 100.0%; height: 100.0%;">Nepal, People fully Vaccinated: 19014212.0<br>Nepal, People with at least one dose: 21994736.0</div>`)[0];
+                popup_28812fcc4aaa7d5f384563ad3a769def.setContent(html_a75e7cb94f8ee6ed37f65cae2b9b1eb1);
+            
+        
+
+        marker_b5f68b2088710020f43947ef7e75c25d.bindPopup(popup_28812fcc4aaa7d5f384563ad3a769def)
+        ;
+
+        
+    
+    
+            var marker_7cc53934358b31855733d26306e95f18 = L.marker(
+                [52.2434979, 5.6343227],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_278a9f9ead2da3043c917ef6e9cbef4f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5db7a1e702fbb3058de7f5c3564294ff = $(`<div id="html_5db7a1e702fbb3058de7f5c3564294ff" style="width: 100.0%; height: 100.0%;">Netherlands, People fully Vaccinated: 12366525.0<br>Netherlands, People with at least one dose: 13455761.0</div>`)[0];
+                popup_278a9f9ead2da3043c917ef6e9cbef4f.setContent(html_5db7a1e702fbb3058de7f5c3564294ff);
+            
+        
+
+        marker_7cc53934358b31855733d26306e95f18.bindPopup(popup_278a9f9ead2da3043c917ef6e9cbef4f)
+        ;
+
+        
+    
+    
+            var marker_8fab5c95a6042d87398a44ec39875c40 = L.marker(
+                [-21.3019905, 165.4880773],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d6c146fa003d3b50381f3673a8fbb114 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cc62bd4ba2f2f8f7d1880009c4262a97 = $(`<div id="html_cc62bd4ba2f2f8f7d1880009c4262a97" style="width: 100.0%; height: 100.0%;">New Caledonia, People fully Vaccinated: 179880.0<br>New Caledonia, People with at least one dose: 188003.0</div>`)[0];
+                popup_d6c146fa003d3b50381f3673a8fbb114.setContent(html_cc62bd4ba2f2f8f7d1880009c4262a97);
+            
+        
+
+        marker_8fab5c95a6042d87398a44ec39875c40.bindPopup(popup_d6c146fa003d3b50381f3673a8fbb114)
+        ;
+
+        
+    
+    
+            var marker_f585dc1d91bb9d32a13efa1bb0b9b93e = L.marker(
+                [-41.5000831, 172.8344077],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1e7ae2df9570af7670ad9d10677b6125 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_75419b31c2902153ca2d662191c77626 = $(`<div id="html_75419b31c2902153ca2d662191c77626" style="width: 100.0%; height: 100.0%;">New Zealand, People fully Vaccinated: 4051832.0<br>New Zealand, People with at least one dose: 4284293.0</div>`)[0];
+                popup_1e7ae2df9570af7670ad9d10677b6125.setContent(html_75419b31c2902153ca2d662191c77626);
+            
+        
+
+        marker_f585dc1d91bb9d32a13efa1bb0b9b93e.bindPopup(popup_1e7ae2df9570af7670ad9d10677b6125)
+        ;
+
+        
+    
+    
+            var marker_6c01a7516da7c32e9f97c697e7b309f4 = L.marker(
+                [12.6090157, -85.2936911],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_bfb4d710fce76ab8a8551786cd4a7515 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_0fccc8f04e47e3bb9ec43da298b66532 = $(`<div id="html_0fccc8f04e47e3bb9ec43da298b66532" style="width: 100.0%; height: 100.0%;">Nicaragua, People fully Vaccinated: 4113547.0<br>Nicaragua, People with at least one dose: 5498389.0</div>`)[0];
+                popup_bfb4d710fce76ab8a8551786cd4a7515.setContent(html_0fccc8f04e47e3bb9ec43da298b66532);
+            
+        
+
+        marker_6c01a7516da7c32e9f97c697e7b309f4.bindPopup(popup_bfb4d710fce76ab8a8551786cd4a7515)
+        ;
+
+        
+    
+    
+            var marker_1a73831c089617a2657b6160b85fe91a = L.marker(
+                [17.7356214, 9.3238432],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3816397893c7516d99b37f991fce66cf = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_085eb8a4f770d920dc88561ed2a112b2 = $(`<div id="html_085eb8a4f770d920dc88561ed2a112b2" style="width: 100.0%; height: 100.0%;">Niger, People fully Vaccinated: 1545630.0<br>Niger, People with at least one dose: 2180972.0</div>`)[0];
+                popup_3816397893c7516d99b37f991fce66cf.setContent(html_085eb8a4f770d920dc88561ed2a112b2);
+            
+        
+
+        marker_1a73831c089617a2657b6160b85fe91a.bindPopup(popup_3816397893c7516d99b37f991fce66cf)
+        ;
+
+        
+    
+    
+            var marker_d6d108ec595ca062d9f6e8bc55e4d10f = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_fe9d6d4734aa22229b0d4475d617c035 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_99150067d072602caf2f8d5fe9177520 = $(`<div id="html_99150067d072602caf2f8d5fe9177520" style="width: 100.0%; height: 100.0%;">Nigeria, People fully Vaccinated: 9565143.0<br>Nigeria, People with at least one dose: 21049754.0</div>`)[0];
+                popup_fe9d6d4734aa22229b0d4475d617c035.setContent(html_99150067d072602caf2f8d5fe9177520);
+            
+        
+
+        marker_d6d108ec595ca062d9f6e8bc55e4d10f.bindPopup(popup_fe9d6d4734aa22229b0d4475d617c035)
+        ;
+
+        
+    
+    
+            var marker_fedcff544484e1246695f8e8b766b8fd = L.marker(
+                [-19.0536414, -169.861341],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d751169265c21629895d549d66e115f6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_bd1a32d7ee5edb060d068292f5f1d3c5 = $(`<div id="html_bd1a32d7ee5edb060d068292f5f1d3c5" style="width: 100.0%; height: 100.0%;">Niue, People fully Vaccinated: 1417.0<br>Niue, People with at least one dose: 1650.0</div>`)[0];
+                popup_d751169265c21629895d549d66e115f6.setContent(html_bd1a32d7ee5edb060d068292f5f1d3c5);
+            
+        
+
+        marker_fedcff544484e1246695f8e8b766b8fd.bindPopup(popup_d751169265c21629895d549d66e115f6)
+        ;
+
+        
+    
+    
+            var marker_3647801c852d1dc7df7194bb72cfd1fa = L.marker(
+                [41.6171214, 21.7168387],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_09c6cea1a6a24faeeaa847fbb7efa061 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f994e802a7fe6a53455d9f2cfb74408c = $(`<div id="html_f994e802a7fe6a53455d9f2cfb74408c" style="width: 100.0%; height: 100.0%;">North Macedonia, People fully Vaccinated: 835151.0<br>North Macedonia, People with at least one dose: 852584.0</div>`)[0];
+                popup_09c6cea1a6a24faeeaa847fbb7efa061.setContent(html_f994e802a7fe6a53455d9f2cfb74408c);
+            
+        
+
+        marker_3647801c852d1dc7df7194bb72cfd1fa.bindPopup(popup_09c6cea1a6a24faeeaa847fbb7efa061)
+        ;
+
+        
+    
+    
+            var marker_3b2c9bc0c582601317b91613758cfc3c = L.marker(
+                [35.2245313, 33.6252379],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d07a7bcc789c25546dacc055cfad3909 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d94485ffce7373403c7936317d238043 = $(`<div id="html_d94485ffce7373403c7936317d238043" style="width: 100.0%; height: 100.0%;">Northern Cyprus, People fully Vaccinated: 275988.0<br>Northern Cyprus, People with at least one dose: 284357.0</div>`)[0];
+                popup_d07a7bcc789c25546dacc055cfad3909.setContent(html_d94485ffce7373403c7936317d238043);
+            
+        
+
+        marker_3b2c9bc0c582601317b91613758cfc3c.bindPopup(popup_d07a7bcc789c25546dacc055cfad3909)
+        ;
+
+        
+    
+    
+            var marker_43ee207193766b04ea3ab6925e4ad37a = L.marker(
+                [54.5859836, -6.9591554],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_dd7d60d3c30d9f622d19011456bd20cd = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a782915ae8422fa5af2fe2c8efd40821 = $(`<div id="html_a782915ae8422fa5af2fe2c8efd40821" style="width: 100.0%; height: 100.0%;">Northern Ireland, People fully Vaccinated: 1330523.0<br>Northern Ireland, People with at least one dose: 1423609.0</div>`)[0];
+                popup_dd7d60d3c30d9f622d19011456bd20cd.setContent(html_a782915ae8422fa5af2fe2c8efd40821);
+            
+        
+
+        marker_43ee207193766b04ea3ab6925e4ad37a.bindPopup(popup_dd7d60d3c30d9f622d19011456bd20cd)
+        ;
+
+        
+    
+    
+            var marker_6ffb2a2f12831040828c7dac3bc34251 = L.marker(
+                [60.5000209, 9.0999715],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_900ed8f104790575bea961e95bf10c25 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a37ee781b6b4ee2f6c6bf157c4670525 = $(`<div id="html_a37ee781b6b4ee2f6c6bf157c4670525" style="width: 100.0%; height: 100.0%;">Norway, People fully Vaccinated: 4027038.0<br>Norway, People with at least one dose: 4331582.0</div>`)[0];
+                popup_900ed8f104790575bea961e95bf10c25.setContent(html_a37ee781b6b4ee2f6c6bf157c4670525);
+            
+        
+
+        marker_6ffb2a2f12831040828c7dac3bc34251.bindPopup(popup_900ed8f104790575bea961e95bf10c25)
+        ;
+
+        
+    
+    
+            var marker_8751ae72b5edb0bf34eeccdd48385ef3 = L.marker(
+                [21.0000287, 57.0036901],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_820eed72114e4f9498eeb9575e3b78e2 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_0c0af18e33d2bd427bdb7273ffde1af6 = $(`<div id="html_0c0af18e33d2bd427bdb7273ffde1af6" style="width: 100.0%; height: 100.0%;">Oman, People fully Vaccinated: 3021149.0<br>Oman, People with at least one dose: 3242461.0</div>`)[0];
+                popup_820eed72114e4f9498eeb9575e3b78e2.setContent(html_0c0af18e33d2bd427bdb7273ffde1af6);
+            
+        
+
+        marker_8751ae72b5edb0bf34eeccdd48385ef3.bindPopup(popup_820eed72114e4f9498eeb9575e3b78e2)
+        ;
+
+        
+    
+    
+            var marker_2cff76fbf9e0f9f5c4029ac4210cc9ac = L.marker(
+                [30.3308401, 71.247499],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_65581a919748221ac9fb944b0f58303b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_9b4676157ef507de867dad452755705b = $(`<div id="html_9b4676157ef507de867dad452755705b" style="width: 100.0%; height: 100.0%;">Pakistan, People fully Vaccinated: 101881176.0<br>Pakistan, People with at least one dose: 128074138.0</div>`)[0];
+                popup_65581a919748221ac9fb944b0f58303b.setContent(html_9b4676157ef507de867dad452755705b);
+            
+        
+
+        marker_2cff76fbf9e0f9f5c4029ac4210cc9ac.bindPopup(popup_65581a919748221ac9fb944b0f58303b)
+        ;
+
+        
+    
+    
+            var marker_47cb61903ec502f8aed136ccc0735bfc = L.marker(
+                [31.7621153, -95.6307891],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_80e13e99afcb2e04dce4e6d03f982dd6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f41c3c536d69a31910de6b8974ebcdad = $(`<div id="html_f41c3c536d69a31910de6b8974ebcdad" style="width: 100.0%; height: 100.0%;">Palestine, People fully Vaccinated: 1756319.0<br>Palestine, People with at least one dose: 1995873.0</div>`)[0];
+                popup_80e13e99afcb2e04dce4e6d03f982dd6.setContent(html_f41c3c536d69a31910de6b8974ebcdad);
+            
+        
+
+        marker_47cb61903ec502f8aed136ccc0735bfc.bindPopup(popup_80e13e99afcb2e04dce4e6d03f982dd6)
+        ;
+
+        
+    
+    
+            var marker_14389de772d4d0a3879e3d4bbdfb3b6d = L.marker(
+                [8.559559, -81.1308434],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_fb83fc864dd87552a02cb6c5010ed272 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_bce8ee7090ee27b72793d4fe8d04270c = $(`<div id="html_bce8ee7090ee27b72793d4fe8d04270c" style="width: 100.0%; height: 100.0%;">Panama, People fully Vaccinated: 3017898.0<br>Panama, People with at least one dose: 3434847.0</div>`)[0];
+                popup_fb83fc864dd87552a02cb6c5010ed272.setContent(html_bce8ee7090ee27b72793d4fe8d04270c);
+            
+        
+
+        marker_14389de772d4d0a3879e3d4bbdfb3b6d.bindPopup(popup_fb83fc864dd87552a02cb6c5010ed272)
+        ;
+
+        
+    
+    
+            var marker_f4824a907f8f2ab2c3b6834281bdcb41 = L.marker(
+                [-5.6816069, 144.2489081],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6c94284b21446ce986ec2bb18013efc2 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_94fe0df69b578e2321e91c2be00aa015 = $(`<div id="html_94fe0df69b578e2321e91c2be00aa015" style="width: 100.0%; height: 100.0%;">Papua New Guinea, People fully Vaccinated: 257566.0<br>Papua New Guinea, People with at least one dose: 317150.0</div>`)[0];
+                popup_6c94284b21446ce986ec2bb18013efc2.setContent(html_94fe0df69b578e2321e91c2be00aa015);
+            
+        
+
+        marker_f4824a907f8f2ab2c3b6834281bdcb41.bindPopup(popup_6c94284b21446ce986ec2bb18013efc2)
+        ;
+
+        
+    
+    
+            var marker_d9b7a4c23ea1593c4e442977782b71d4 = L.marker(
+                [-23.3165935, -58.1693445],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ee0865e9b6189453929f169d2e2ccada = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2b0fe04e06ed88363c3a6537760d3afe = $(`<div id="html_2b0fe04e06ed88363c3a6537760d3afe" style="width: 100.0%; height: 100.0%;">Paraguay, People fully Vaccinated: 3316744.0<br>Paraguay, People with at least one dose: 3868131.0</div>`)[0];
+                popup_ee0865e9b6189453929f169d2e2ccada.setContent(html_2b0fe04e06ed88363c3a6537760d3afe);
+            
+        
+
+        marker_d9b7a4c23ea1593c4e442977782b71d4.bindPopup(popup_ee0865e9b6189453929f169d2e2ccada)
+        ;
+
+        
+    
+    
+            var marker_b02970c12298154d5701a737f0381e5f = L.marker(
+                [-6.8699697, -75.0458515],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b61be93d845540a6226b076b8f59ae29 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d0e86bdb0fb89089b18efd523de39915 = $(`<div id="html_d0e86bdb0fb89089b18efd523de39915" style="width: 100.0%; height: 100.0%;">Peru, People fully Vaccinated: 25480351.0<br>Peru, People with at least one dose: 28381144.0</div>`)[0];
+                popup_b61be93d845540a6226b076b8f59ae29.setContent(html_d0e86bdb0fb89089b18efd523de39915);
+            
+        
+
+        marker_b02970c12298154d5701a737f0381e5f.bindPopup(popup_b61be93d845540a6226b076b8f59ae29)
+        ;
+
+        
+    
+    
+            var marker_9afeacced663bf5556650e9d7e32ce49 = L.marker(
+                [-25.0657719, -130.101782],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0459d9a4c9b0d5474eea22a7bbe2b247 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_1a7d6734491ec91398594037e9e95e73 = $(`<div id="html_1a7d6734491ec91398594037e9e95e73" style="width: 100.0%; height: 100.0%;">Pitcairn, People fully Vaccinated: 47.0<br>Pitcairn, People with at least one dose: 47.0</div>`)[0];
+                popup_0459d9a4c9b0d5474eea22a7bbe2b247.setContent(html_1a7d6734491ec91398594037e9e95e73);
+            
+        
+
+        marker_9afeacced663bf5556650e9d7e32ce49.bindPopup(popup_0459d9a4c9b0d5474eea22a7bbe2b247)
+        ;
+
+        
+    
+    
+            var marker_03b02d8e3e816ddcfb51cd236da41664 = L.marker(
+                [52.215933, 19.134422],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_28b68ac32b8b7d371efd3bdab52ec596 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_6c4d4289ef391182be78b52949380a21 = $(`<div id="html_6c4d4289ef391182be78b52949380a21" style="width: 100.0%; height: 100.0%;">Poland, People fully Vaccinated: 22343826.0<br>Poland, People with at least one dose: 22585418.0</div>`)[0];
+                popup_28b68ac32b8b7d371efd3bdab52ec596.setContent(html_6c4d4289ef391182be78b52949380a21);
+            
+        
+
+        marker_03b02d8e3e816ddcfb51cd236da41664.bindPopup(popup_28b68ac32b8b7d371efd3bdab52ec596)
+        ;
+
+        
+    
+    
+            var marker_0ee64bffc9076c12bd89219b099e6242 = L.marker(
+                [39.6621648, -8.1353519],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_2d10ca99331837aac592d49e69e604e6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_96b25727f87bc00ebeed4c60d0f0a927 = $(`<div id="html_96b25727f87bc00ebeed4c60d0f0a927" style="width: 100.0%; height: 100.0%;">Portugal, People fully Vaccinated: 9415073.0<br>Portugal, People with at least one dose: 9663542.0</div>`)[0];
+                popup_2d10ca99331837aac592d49e69e604e6.setContent(html_96b25727f87bc00ebeed4c60d0f0a927);
+            
+        
+
+        marker_0ee64bffc9076c12bd89219b099e6242.bindPopup(popup_2d10ca99331837aac592d49e69e604e6)
+        ;
+
+        
+    
+    
+            var marker_f260ac5d4be7b234b610fa816f2c10ff = L.marker(
+                [64.6863136, 97.7453061],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_c508ba1704704673c77018ee9dddd1b8 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ef27844bfa731c3915f18b948c67c2ef = $(`<div id="html_ef27844bfa731c3915f18b948c67c2ef" style="width: 100.0%; height: 100.0%;">Russia, People fully Vaccinated: 72841232.0<br>Russia, People with at least one dose: 79954746.0</div>`)[0];
+                popup_c508ba1704704673c77018ee9dddd1b8.setContent(html_ef27844bfa731c3915f18b948c67c2ef);
+            
+        
+
+        marker_f260ac5d4be7b234b610fa816f2c10ff.bindPopup(popup_c508ba1704704673c77018ee9dddd1b8)
+        ;
+
+        
+    
+    
+            var marker_3c477005469d515bc2e8abab0ae2ba8e = L.marker(
+                [-15.9654552, -5.7025756],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5bc2823f1ab17a83d4b15ea0d499b9ae = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_690a6dbbdeb8770d6a2c7fce0e4ab273 = $(`<div id="html_690a6dbbdeb8770d6a2c7fce0e4ab273" style="width: 100.0%; height: 100.0%;">Saint Helena, People fully Vaccinated: 3531.0<br>Saint Helena, People with at least one dose: 4361.0</div>`)[0];
+                popup_5bc2823f1ab17a83d4b15ea0d499b9ae.setContent(html_690a6dbbdeb8770d6a2c7fce0e4ab273);
+            
+        
+
+        marker_3c477005469d515bc2e8abab0ae2ba8e.bindPopup(popup_5bc2823f1ab17a83d4b15ea0d499b9ae)
+        ;
+
+        
+    
+    
+            var marker_5cc829b2fa7208e71be04f808dbea5e7 = L.marker(
+                [17.250512, -62.6725973],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_dbaec2048effb35c767b92533534d141 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_02cf92d17e5cd445c4b8ec449d6d06e1 = $(`<div id="html_02cf92d17e5cd445c4b8ec449d6d06e1" style="width: 100.0%; height: 100.0%;">Saint Kitts and Nevis, People fully Vaccinated: 26294.0<br>Saint Kitts and Nevis, People with at least one dose: 31162.0</div>`)[0];
+                popup_dbaec2048effb35c767b92533534d141.setContent(html_02cf92d17e5cd445c4b8ec449d6d06e1);
+            
+        
+
+        marker_5cc829b2fa7208e71be04f808dbea5e7.bindPopup(popup_dbaec2048effb35c767b92533534d141)
+        ;
+
+        
+    
+    
+            var marker_1e2b655ff58a79111ff7a3b7ce7f65e8 = L.marker(
+                [13.8250489, -60.975036],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a13ce16834af14a35b543a786941c647 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3dabf816915c3fb2ce90f2d2aa3a1d99 = $(`<div id="html_3dabf816915c3fb2ce90f2d2aa3a1d99" style="width: 100.0%; height: 100.0%;">Saint Lucia, People fully Vaccinated: 52713.0<br>Saint Lucia, People with at least one dose: 58119.0</div>`)[0];
+                popup_a13ce16834af14a35b543a786941c647.setContent(html_3dabf816915c3fb2ce90f2d2aa3a1d99);
+            
+        
+
+        marker_1e2b655ff58a79111ff7a3b7ce7f65e8.bindPopup(popup_a13ce16834af14a35b543a786941c647)
+        ;
+
+        
+    
+    
+            var marker_cb4328029e9e31a8e624e592e5c95709 = L.marker(
+                [12.90447, -61.2765569],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_88c22356d78f390d0f0f95525e01b2be = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_17b15eca22b877f51a8f66d7eecefb81 = $(`<div id="html_17b15eca22b877f51a8f66d7eecefb81" style="width: 100.0%; height: 100.0%;">Saint Vincent and the Grenadines, People fully Vaccinated: 30123.0<br>Saint Vincent and the Grenadines, People with at least one dose: 36033.0</div>`)[0];
+                popup_88c22356d78f390d0f0f95525e01b2be.setContent(html_17b15eca22b877f51a8f66d7eecefb81);
+            
+        
+
+        marker_cb4328029e9e31a8e624e592e5c95709.bindPopup(popup_88c22356d78f390d0f0f95525e01b2be)
+        ;
+
+        
+    
+    
+            var marker_996c80d183f35c630a2e8ee7af426296 = L.marker(
+                [-13.7693895, -172.12005],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a867e8d41dabb370919e419b77cb0b9a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_67a12961618290a4258ef2a5bb3c29e0 = $(`<div id="html_67a12961618290a4258ef2a5bb3c29e0" style="width: 100.0%; height: 100.0%;">Samoa, People fully Vaccinated: 131031.0<br>Samoa, People with at least one dose: 173862.0</div>`)[0];
+                popup_a867e8d41dabb370919e419b77cb0b9a.setContent(html_67a12961618290a4258ef2a5bb3c29e0);
+            
+        
+
+        marker_996c80d183f35c630a2e8ee7af426296.bindPopup(popup_a867e8d41dabb370919e419b77cb0b9a)
+        ;
+
+        
+    
+    
+            var marker_a23349af083e8ff71b7e9e5d00feddef = L.marker(
+                [43.9458623, 12.458306],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9377f5fb5c6ce06e09a33636b2932cae = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d8f554c19cd976683997a27351b33077 = $(`<div id="html_d8f554c19cd976683997a27351b33077" style="width: 100.0%; height: 100.0%;">San Marino, People fully Vaccinated: 23602.0<br>San Marino, People with at least one dose: 26331.0</div>`)[0];
+                popup_9377f5fb5c6ce06e09a33636b2932cae.setContent(html_d8f554c19cd976683997a27351b33077);
+            
+        
+
+        marker_a23349af083e8ff71b7e9e5d00feddef.bindPopup(popup_9377f5fb5c6ce06e09a33636b2932cae)
+        ;
+
+        
+    
+    
+            var marker_1c08661406586d1c685d1279648d91d0 = L.marker(
+                [25.6242618, 42.3528328],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_60b090fa891f7b3034a1e185a4ccd67a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_46ac36bef071e318cdbade7896903f8a = $(`<div id="html_46ac36bef071e318cdbade7896903f8a" style="width: 100.0%; height: 100.0%;">Saudi Arabia, People fully Vaccinated: 24460457.0<br>Saudi Arabia, People with at least one dose: 26167138.0</div>`)[0];
+                popup_60b090fa891f7b3034a1e185a4ccd67a.setContent(html_46ac36bef071e318cdbade7896903f8a);
+            
+        
+
+        marker_1c08661406586d1c685d1279648d91d0.bindPopup(popup_60b090fa891f7b3034a1e185a4ccd67a)
+        ;
+
+        
+    
+    
+            var marker_6849a19d5091e5ae6b199953efb78a33 = L.marker(
+                [56.7861112, -4.1140518],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_89f44613e4255e6863a93297ded43e4f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_09cea3e4246090dc8d7375aee01e05df = $(`<div id="html_09cea3e4246090dc8d7375aee01e05df" style="width: 100.0%; height: 100.0%;">Scotland, People fully Vaccinated: 4172472.0<br>Scotland, People with at least one dose: 4458008.0</div>`)[0];
+                popup_89f44613e4255e6863a93297ded43e4f.setContent(html_09cea3e4246090dc8d7375aee01e05df);
+            
+        
+
+        marker_6849a19d5091e5ae6b199953efb78a33.bindPopup(popup_89f44613e4255e6863a93297ded43e4f)
+        ;
+
+        
+    
+    
+            var marker_b96f645aadf0b4563a43b886c83b8309 = L.marker(
+                [14.4750607, -14.4529612],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_84740631c496add4b0467e718e910599 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_d0164f77761da0c0cb1d6bba36762fab = $(`<div id="html_d0164f77761da0c0cb1d6bba36762fab" style="width: 100.0%; height: 100.0%;">Senegal, People fully Vaccinated: 1039257.0<br>Senegal, People with at least one dose: 1457116.0</div>`)[0];
+                popup_84740631c496add4b0467e718e910599.setContent(html_d0164f77761da0c0cb1d6bba36762fab);
+            
+        
+
+        marker_b96f645aadf0b4563a43b886c83b8309.bindPopup(popup_84740631c496add4b0467e718e910599)
+        ;
+
+        
+    
+    
+            var marker_dfc5fdbbdaccee9c86b62eb6dae62489 = L.marker(
+                [44.1534121, 20.55144],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_22a9b40d770a9fc7662a28570654f9a1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_451a06e5c32b1f7cfadd0991e15ada4d = $(`<div id="html_451a06e5c32b1f7cfadd0991e15ada4d" style="width: 100.0%; height: 100.0%;">Serbia, People fully Vaccinated: 3269374.0<br>Serbia, People with at least one dose: 3347209.0</div>`)[0];
+                popup_22a9b40d770a9fc7662a28570654f9a1.setContent(html_451a06e5c32b1f7cfadd0991e15ada4d);
+            
+        
+
+        marker_dfc5fdbbdaccee9c86b62eb6dae62489.bindPopup(popup_22a9b40d770a9fc7662a28570654f9a1)
+        ;
+
+        
+    
+    
+            var marker_2c986f18eba2e79df4ab220b116da84e = L.marker(
+                [-4.6574977, 55.4540146],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3235445cd3e6d9c5b8f2b0ff38bf3f18 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a103bc90cdd447cfe1b336b6004b16ba = $(`<div id="html_a103bc90cdd447cfe1b336b6004b16ba" style="width: 100.0%; height: 100.0%;">Seychelles, People fully Vaccinated: 80089.0<br>Seychelles, People with at least one dose: 84327.0</div>`)[0];
+                popup_3235445cd3e6d9c5b8f2b0ff38bf3f18.setContent(html_a103bc90cdd447cfe1b336b6004b16ba);
+            
+        
+
+        marker_2c986f18eba2e79df4ab220b116da84e.bindPopup(popup_3235445cd3e6d9c5b8f2b0ff38bf3f18)
+        ;
+
+        
+    
+    
+            var marker_99a37da6ba1ff8e59db42dbbf2847919 = L.marker(
+                [8.6400349, -11.8400269],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b62beb0325d44e1280a6dc8168829031 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_5b76e3405fafa603db9505038eb593ae = $(`<div id="html_5b76e3405fafa603db9505038eb593ae" style="width: 100.0%; height: 100.0%;">Sierra Leone, People fully Vaccinated: 1114047.0<br>Sierra Leone, People with at least one dose: 1727305.0</div>`)[0];
+                popup_b62beb0325d44e1280a6dc8168829031.setContent(html_5b76e3405fafa603db9505038eb593ae);
+            
+        
+
+        marker_99a37da6ba1ff8e59db42dbbf2847919.bindPopup(popup_b62beb0325d44e1280a6dc8168829031)
+        ;
+
+        
+    
+    
+            var marker_bcdc33ec471dac7d8a732273131cfeae = L.marker(
+                [1.357107, 103.8194992],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9d9e204560c61991a01ae7207b1e041e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_21d316b5eab683506b0a364bf85c2a57 = $(`<div id="html_21d316b5eab683506b0a364bf85c2a57" style="width: 100.0%; height: 100.0%;">Singapore, People fully Vaccinated: 4964989.0<br>Singapore, People with at least one dose: 5005722.0</div>`)[0];
+                popup_9d9e204560c61991a01ae7207b1e041e.setContent(html_21d316b5eab683506b0a364bf85c2a57);
+            
+        
+
+        marker_bcdc33ec471dac7d8a732273131cfeae.bindPopup(popup_9d9e204560c61991a01ae7207b1e041e)
+        ;
+
+        
+    
+    
+            var marker_93414536a67a79f664ed9daacebf62d3 = L.marker(
+                [18.04167, -63.06667],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3808c81c4f14f38102fccf340a9c79dd = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_0e17481823eae252bc8f769f80f6d409 = $(`<div id="html_0e17481823eae252bc8f769f80f6d409" style="width: 100.0%; height: 100.0%;">Sint Maarten (Dutch part), People fully Vaccinated: 25970.0<br>Sint Maarten (Dutch part), People with at least one dose: 27974.0</div>`)[0];
+                popup_3808c81c4f14f38102fccf340a9c79dd.setContent(html_0e17481823eae252bc8f769f80f6d409);
+            
+        
+
+        marker_93414536a67a79f664ed9daacebf62d3.bindPopup(popup_3808c81c4f14f38102fccf340a9c79dd)
+        ;
+
+        
+    
+    
+            var marker_ddf898ab56c5df05578a695aaedc00fe = L.marker(
+                [48.7411522, 19.4528646],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_63b9460447e4392eee8e6ca61feccb2c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_72c6b07df18ce42f4342354cac715513 = $(`<div id="html_72c6b07df18ce42f4342354cac715513" style="width: 100.0%; height: 100.0%;">Slovakia, People fully Vaccinated: 2763187.0<br>Slovakia, People with at least one dose: 2819708.0</div>`)[0];
+                popup_63b9460447e4392eee8e6ca61feccb2c.setContent(html_72c6b07df18ce42f4342354cac715513);
+            
+        
+
+        marker_ddf898ab56c5df05578a695aaedc00fe.bindPopup(popup_63b9460447e4392eee8e6ca61feccb2c)
+        ;
+
+        
+    
+    
+            var marker_8493f70793591e17e0360587ecbcd2ab = L.marker(
+                [45.8133113, 14.4808369],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_af03bdb1a9058bb152f367342a183c6b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_8e773277b7d882b9208b5b0cebd1839b = $(`<div id="html_8e773277b7d882b9208b5b0cebd1839b" style="width: 100.0%; height: 100.0%;">Slovenia, People fully Vaccinated: 1220153.0<br>Slovenia, People with at least one dose: 1264649.0</div>`)[0];
+                popup_af03bdb1a9058bb152f367342a183c6b.setContent(html_8e773277b7d882b9208b5b0cebd1839b);
+            
+        
+
+        marker_8493f70793591e17e0360587ecbcd2ab.bindPopup(popup_af03bdb1a9058bb152f367342a183c6b)
+        ;
+
+        
+    
+    
+            var marker_511aaa8d38d615895dfd838f28db217b = L.marker(
+                [-8.7053941, 159.1070694],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_c1559760449bcf16be2d1927d857c59e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a79897fd8a57f4206e79c2a5ad2e6e13 = $(`<div id="html_a79897fd8a57f4206e79c2a5ad2e6e13" style="width: 100.0%; height: 100.0%;">Solomon Islands, People fully Vaccinated: 122405.0<br>Solomon Islands, People with at least one dose: 235668.0</div>`)[0];
+                popup_c1559760449bcf16be2d1927d857c59e.setContent(html_a79897fd8a57f4206e79c2a5ad2e6e13);
+            
+        
+
+        marker_511aaa8d38d615895dfd838f28db217b.bindPopup(popup_c1559760449bcf16be2d1927d857c59e)
+        ;
+
+        
+    
+    
+            var marker_49862a672f88875b4acb39c05362190c = L.marker(
+                [8.3676771, 49.083416],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3394d43d98ca28847f8f3f2dd5413fc5 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_387ce372a5444092b3e4ed57421168cc = $(`<div id="html_387ce372a5444092b3e4ed57421168cc" style="width: 100.0%; height: 100.0%;">Somalia, People fully Vaccinated: 1290895.0<br>Somalia, People with at least one dose: 1929472.0</div>`)[0];
+                popup_3394d43d98ca28847f8f3f2dd5413fc5.setContent(html_387ce372a5444092b3e4ed57421168cc);
+            
+        
+
+        marker_49862a672f88875b4acb39c05362190c.bindPopup(popup_3394d43d98ca28847f8f3f2dd5413fc5)
+        ;
+
+        
+    
+    
+            var marker_453b7b6ecce774fab5191084c01c84d8 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_99a4f6f8e17cea804ca37d8e3cd14610 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a6704ce95cfaf0fb3349af66d6558985 = $(`<div id="html_a6704ce95cfaf0fb3349af66d6558985" style="width: 100.0%; height: 100.0%;">South Africa, People fully Vaccinated: 17833534.0<br>South Africa, People with at least one dose: 20894155.0</div>`)[0];
+                popup_99a4f6f8e17cea804ca37d8e3cd14610.setContent(html_a6704ce95cfaf0fb3349af66d6558985);
+            
+        
+
+        marker_453b7b6ecce774fab5191084c01c84d8.bindPopup(popup_99a4f6f8e17cea804ca37d8e3cd14610)
+        ;
+
+        
+    
+    
+            var marker_a3d62c2590698f5e52f8738a240d1054 = L.marker(
+                [36.638392, 127.6961188],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1220f183610fed1a9ee0ab26f5d5413a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_4e78831b14469422ad516e375c8831b6 = $(`<div id="html_4e78831b14469422ad516e375c8831b6" style="width: 100.0%; height: 100.0%;">South Korea, People fully Vaccinated: 44482876.0<br>South Korea, People with at least one dose: 44948629.0</div>`)[0];
+                popup_1220f183610fed1a9ee0ab26f5d5413a.setContent(html_4e78831b14469422ad516e375c8831b6);
+            
+        
+
+        marker_a3d62c2590698f5e52f8738a240d1054.bindPopup(popup_1220f183610fed1a9ee0ab26f5d5413a)
+        ;
+
+        
+    
+    
+            var marker_6bcc1efeaaf81513643b85c9c2e9c183 = L.marker(
+                [7.8699431, 29.6667897],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_c9716798f4faf8e78bee44e5ebf6daa1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_4ad173487681ebc43f9c6c9995d68d9f = $(`<div id="html_4ad173487681ebc43f9c6c9995d68d9f" style="width: 100.0%; height: 100.0%;">South Sudan, People fully Vaccinated: 482816.0<br>South Sudan, People with at least one dose: 526243.0</div>`)[0];
+                popup_c9716798f4faf8e78bee44e5ebf6daa1.setContent(html_4ad173487681ebc43f9c6c9995d68d9f);
+            
+        
+
+        marker_6bcc1efeaaf81513643b85c9c2e9c183.bindPopup(popup_c9716798f4faf8e78bee44e5ebf6daa1)
+        ;
+
+        
+    
+    
+            var marker_f31926f9a487ba1dcbec733f2861b689 = L.marker(
+                [39.3260685, -4.8379791],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_007ac8005aff5b48aa02255445a69a1b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_b3a67daf7655c6503371490358912d7a = $(`<div id="html_b3a67daf7655c6503371490358912d7a" style="width: 100.0%; height: 100.0%;">Spain, People fully Vaccinated: 40118474.0<br>Spain, People with at least one dose: 41134037.0</div>`)[0];
+                popup_007ac8005aff5b48aa02255445a69a1b.setContent(html_b3a67daf7655c6503371490358912d7a);
+            
+        
+
+        marker_f31926f9a487ba1dcbec733f2861b689.bindPopup(popup_007ac8005aff5b48aa02255445a69a1b)
+        ;
+
+        
+    
+    
+            var marker_a60f66b09785b406304f6d5f6e058bcd = L.marker(
+                [7.5554942, 80.7137847],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_74c4a1de7afa617ab6572dec3c2a4310 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_560fa6ed6c0edc1207ffb25117876091 = $(`<div id="html_560fa6ed6c0edc1207ffb25117876091" style="width: 100.0%; height: 100.0%;">Sri Lanka, People fully Vaccinated: 14387077.0<br>Sri Lanka, People with at least one dose: 16995787.0</div>`)[0];
+                popup_74c4a1de7afa617ab6572dec3c2a4310.setContent(html_560fa6ed6c0edc1207ffb25117876091);
+            
+        
+
+        marker_a60f66b09785b406304f6d5f6e058bcd.bindPopup(popup_74c4a1de7afa617ab6572dec3c2a4310)
+        ;
+
+        
+    
+    
+            var marker_90f5e244430da5b5f1d04331893bd2d0 = L.marker(
+                [14.5844444, 29.4917691],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_471a1d94c452cf19c2bd37f0c27d2202 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_79a6892e5a408b1f0d3f19f61c642aec = $(`<div id="html_79a6892e5a408b1f0d3f19f61c642aec" style="width: 100.0%; height: 100.0%;">Sudan, People fully Vaccinated: 2746556.0<br>Sudan, People with at least one dose: 5171677.0</div>`)[0];
+                popup_471a1d94c452cf19c2bd37f0c27d2202.setContent(html_79a6892e5a408b1f0d3f19f61c642aec);
+            
+        
+
+        marker_90f5e244430da5b5f1d04331893bd2d0.bindPopup(popup_471a1d94c452cf19c2bd37f0c27d2202)
+        ;
+
+        
+    
+    
+            var marker_bbb04b54e49e4fd477735309a1f7449d = L.marker(
+                [4.1413025, -56.0771187],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_1907257b7546d302427074a2cf86600a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2765790d9d0a1a95206cf687e3fbc41b = $(`<div id="html_2765790d9d0a1a95206cf687e3fbc41b" style="width: 100.0%; height: 100.0%;">Suriname, People fully Vaccinated: 237194.0<br>Suriname, People with at least one dose: 267335.0</div>`)[0];
+                popup_1907257b7546d302427074a2cf86600a.setContent(html_2765790d9d0a1a95206cf687e3fbc41b);
+            
+        
+
+        marker_bbb04b54e49e4fd477735309a1f7449d.bindPopup(popup_1907257b7546d302427074a2cf86600a)
+        ;
+
+        
+    
+    
+            var marker_4b0e635f94ce1fb06ce6fa13e2d8cc90 = L.marker(
+                [59.6749712, 14.5208584],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_d6dfd7e2b39193e5db7c1bfc7bebfb67 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f310a18a6cf584b38645215e9e761cf8 = $(`<div id="html_f310a18a6cf584b38645215e9e761cf8" style="width: 100.0%; height: 100.0%;">Sweden, People fully Vaccinated: 7614496.0<br>Sweden, People with at least one dose: 7817094.0</div>`)[0];
+                popup_d6dfd7e2b39193e5db7c1bfc7bebfb67.setContent(html_f310a18a6cf584b38645215e9e761cf8);
+            
+        
+
+        marker_4b0e635f94ce1fb06ce6fa13e2d8cc90.bindPopup(popup_d6dfd7e2b39193e5db7c1bfc7bebfb67)
+        ;
+
+        
+    
+    
+            var marker_7e59c2ded23d94342689e197fbcce396 = L.marker(
+                [46.7985624, 8.2319736],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_5177dd34de26e0c25dc396ee7e9b5cd2 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_06bf1a480d427e3759ad6e3e0b286c39 = $(`<div id="html_06bf1a480d427e3759ad6e3e0b286c39" style="width: 100.0%; height: 100.0%;">Switzerland, People fully Vaccinated: 5993447.0<br>Switzerland, People with at least one dose: 6081712.0</div>`)[0];
+                popup_5177dd34de26e0c25dc396ee7e9b5cd2.setContent(html_06bf1a480d427e3759ad6e3e0b286c39);
+            
+        
+
+        marker_7e59c2ded23d94342689e197fbcce396.bindPopup(popup_5177dd34de26e0c25dc396ee7e9b5cd2)
+        ;
+
+        
+    
+    
+            var marker_0eff72bf34b608a9b7449dd5d2c83a20 = L.marker(
+                [34.6401861, 39.0494106],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_9eafb9cbbfa419120d934576d375654b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_488d8a74d939bbb7448cc125b5238bea = $(`<div id="html_488d8a74d939bbb7448cc125b5238bea" style="width: 100.0%; height: 100.0%;">Syria, People fully Vaccinated: 1318742.0<br>Syria, People with at least one dose: 2308843.0</div>`)[0];
+                popup_9eafb9cbbfa419120d934576d375654b.setContent(html_488d8a74d939bbb7448cc125b5238bea);
+            
+        
+
+        marker_0eff72bf34b608a9b7449dd5d2c83a20.bindPopup(popup_9eafb9cbbfa419120d934576d375654b)
+        ;
+
+        
+    
+    
+            var marker_f5a092c71d488367b61b0e515f6f05e6 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_88fa189d434bdadeb8589c4043e9f029 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f63a410adec515887b6895484e97ed3f = $(`<div id="html_f63a410adec515887b6895484e97ed3f" style="width: 100.0%; height: 100.0%;">Taiwan, People fully Vaccinated: 18254357.0<br>Taiwan, People with at least one dose: 19449353.0</div>`)[0];
+                popup_88fa189d434bdadeb8589c4043e9f029.setContent(html_f63a410adec515887b6895484e97ed3f);
+            
+        
+
+        marker_f5a092c71d488367b61b0e515f6f05e6.bindPopup(popup_88fa189d434bdadeb8589c4043e9f029)
+        ;
+
+        
+    
+    
+            var marker_74a89c17ed20cd55702064ce34c9c070 = L.marker(
+                [38.6281733, 70.8156541],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_33ca719451dd17c51a103fc75f56e6b1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_53908f7badbad93005cc121be966900f = $(`<div id="html_53908f7badbad93005cc121be966900f" style="width: 100.0%; height: 100.0%;">Tajikistan, People fully Vaccinated: 4614268.0<br>Tajikistan, People with at least one dose: 5085230.0</div>`)[0];
+                popup_33ca719451dd17c51a103fc75f56e6b1.setContent(html_53908f7badbad93005cc121be966900f);
+            
+        
+
+        marker_74a89c17ed20cd55702064ce34c9c070.bindPopup(popup_33ca719451dd17c51a103fc75f56e6b1)
+        ;
+
+        
+    
+    
+            var marker_37cca7c9e9d5f7809ed15e5a5992f72d = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_2a21f825ca529def8a92900f3c464422 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_08e681c72ed0023d1c3018cfcc43c034 = $(`<div id="html_08e681c72ed0023d1c3018cfcc43c034" style="width: 100.0%; height: 100.0%;">Tanzania, People fully Vaccinated: 3067877.0<br>Tanzania, People with at least one dose: 3941772.0</div>`)[0];
+                popup_2a21f825ca529def8a92900f3c464422.setContent(html_08e681c72ed0023d1c3018cfcc43c034);
+            
+        
+
+        marker_37cca7c9e9d5f7809ed15e5a5992f72d.bindPopup(popup_2a21f825ca529def8a92900f3c464422)
+        ;
+
+        
+    
+    
+            var marker_c8861f32357ed4821493e6b47d206124 = L.marker(
+                [14.8971921, 100.83273],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_fd275eb0080f1b87b6a19b5e830725ec = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_dc44d806fb1401770cccdd738887bf6c = $(`<div id="html_dc44d806fb1401770cccdd738887bf6c" style="width: 100.0%; height: 100.0%;">Thailand, People fully Vaccinated: 50159803.0<br>Thailand, People with at least one dose: 55362342.0</div>`)[0];
+                popup_fd275eb0080f1b87b6a19b5e830725ec.setContent(html_dc44d806fb1401770cccdd738887bf6c);
+            
+        
+
+        marker_c8861f32357ed4821493e6b47d206124.bindPopup(popup_fd275eb0080f1b87b6a19b5e830725ec)
+        ;
+
+        
+    
+    
+            var marker_187ade564bc36738b1a749ff62e6a661 = L.marker(
+                [-9.3460171, 124.6370774],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f7840aa9b6405ed366f358770084d97e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_978082565bc4e290ba87e566c1b9404c = $(`<div id="html_978082565bc4e290ba87e566c1b9404c" style="width: 100.0%; height: 100.0%;">Timor, People fully Vaccinated: 578949.0<br>Timor, People with at least one dose: 700055.0</div>`)[0];
+                popup_f7840aa9b6405ed366f358770084d97e.setContent(html_978082565bc4e290ba87e566c1b9404c);
+            
+        
+
+        marker_187ade564bc36738b1a749ff62e6a661.bindPopup(popup_f7840aa9b6405ed366f358770084d97e)
+        ;
+
+        
+    
+    
+            var marker_ec9c9a4444ea8f6bcb94d6d81d00c739 = L.marker(
+                [8.7800265, 1.0199765],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_85d23aa83d0ad1fd7a40c47c1a4b20e1 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7fb13da77b0add3977a47572c27c7551 = $(`<div id="html_7fb13da77b0add3977a47572c27c7551" style="width: 100.0%; height: 100.0%;">Togo, People fully Vaccinated: 1557538.0<br>Togo, People with at least one dose: 1558542.0</div>`)[0];
+                popup_85d23aa83d0ad1fd7a40c47c1a4b20e1.setContent(html_7fb13da77b0add3977a47572c27c7551);
+            
+        
+
+        marker_ec9c9a4444ea8f6bcb94d6d81d00c739.bindPopup(popup_85d23aa83d0ad1fd7a40c47c1a4b20e1)
+        ;
+
+        
+    
+    
+            var marker_be7139681e6d7d8483d37d329e6f700f = L.marker(
+                [-9.1676396, -171.819687],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f4e23b75a5723318231064caaeb018bb = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_75ea44b34d6144eff60d15af0e218182 = $(`<div id="html_75ea44b34d6144eff60d15af0e218182" style="width: 100.0%; height: 100.0%;">Tokelau, People fully Vaccinated: 968.0<br>Tokelau, People with at least one dose: 968.0</div>`)[0];
+                popup_f4e23b75a5723318231064caaeb018bb.setContent(html_75ea44b34d6144eff60d15af0e218182);
+            
+        
+
+        marker_be7139681e6d7d8483d37d329e6f700f.bindPopup(popup_f4e23b75a5723318231064caaeb018bb)
+        ;
+
+        
+    
+    
+            var marker_9837c8a11c7ceb7825cec2730f5cae68 = L.marker(
+                [-19.9160819, -175.202642],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_18b997230d04de545cbc79b001f52aa3 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_ca25ab300f36e0fc522659170861cef7 = $(`<div id="html_ca25ab300f36e0fc522659170861cef7" style="width: 100.0%; height: 100.0%;">Tonga, People fully Vaccinated: 70283.0<br>Tonga, People with at least one dose: 76910.0</div>`)[0];
+                popup_18b997230d04de545cbc79b001f52aa3.setContent(html_ca25ab300f36e0fc522659170861cef7);
+            
+        
+
+        marker_9837c8a11c7ceb7825cec2730f5cae68.bindPopup(popup_18b997230d04de545cbc79b001f52aa3)
+        ;
+
+        
+    
+    
+            var marker_68629573c289dae7b2f419942c4080cc = L.marker(
+                [10.7466905, -61.0840075],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_56c68f1934b075834624becc65c0ff12 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f2b011094a20059952664d358b1d2fea = $(`<div id="html_f2b011094a20059952664d358b1d2fea" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago, People fully Vaccinated: 708762.0<br>Trinidad and Tobago, People with at least one dose: 746106.0</div>`)[0];
+                popup_56c68f1934b075834624becc65c0ff12.setContent(html_f2b011094a20059952664d358b1d2fea);
+            
+        
+
+        marker_68629573c289dae7b2f419942c4080cc.bindPopup(popup_56c68f1934b075834624becc65c0ff12)
+        ;
+
+        
+    
+    
+            var marker_915ed020f5c7ecd59b9a69e951c524f4 = L.marker(
+                [33.8439408, 9.400138],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_a869b0c228a94d9acef0f86d5a453966 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cd0773f90b6d55246e868a3d1959637a = $(`<div id="html_cd0773f90b6d55246e868a3d1959637a" style="width: 100.0%; height: 100.0%;">Tunisia, People fully Vaccinated: 6345597.0<br>Tunisia, People with at least one dose: 7171789.0</div>`)[0];
+                popup_a869b0c228a94d9acef0f86d5a453966.setContent(html_cd0773f90b6d55246e868a3d1959637a);
+            
+        
+
+        marker_915ed020f5c7ecd59b9a69e951c524f4.bindPopup(popup_a869b0c228a94d9acef0f86d5a453966)
+        ;
+
+        
+    
+    
+            var marker_61d2356f3fe62576c3276185eb951917 = L.marker(
+                [38.9597594, 34.9249653],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_3d926c2ec15e88c5ae618a18c0b88025 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_e2decfcfa29ddee2d9aec428c1d4f004 = $(`<div id="html_e2decfcfa29ddee2d9aec428c1d4f004" style="width: 100.0%; height: 100.0%;">Turkey, People fully Vaccinated: 52968985.0<br>Turkey, People with at least one dose: 57776278.0</div>`)[0];
+                popup_3d926c2ec15e88c5ae618a18c0b88025.setContent(html_e2decfcfa29ddee2d9aec428c1d4f004);
+            
+        
+
+        marker_61d2356f3fe62576c3276185eb951917.bindPopup(popup_3d926c2ec15e88c5ae618a18c0b88025)
+        ;
+
+        
+    
+    
+            var marker_a9d295c20f6544076a8a9a0ab9e5c0f8 = L.marker(
+                [39.3763807, 59.3924609],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b3e33fa64e0bc2924605ad3aeb2701e6 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_c1b78c0bb49e047bbfbcc47fe6a3fed6 = $(`<div id="html_c1b78c0bb49e047bbfbcc47fe6a3fed6" style="width: 100.0%; height: 100.0%;">Turkmenistan, People fully Vaccinated: 3206282.0<br>Turkmenistan, People with at least one dose: 4374694.0</div>`)[0];
+                popup_b3e33fa64e0bc2924605ad3aeb2701e6.setContent(html_c1b78c0bb49e047bbfbcc47fe6a3fed6);
+            
+        
+
+        marker_a9d295c20f6544076a8a9a0ab9e5c0f8.bindPopup(popup_b3e33fa64e0bc2924605ad3aeb2701e6)
+        ;
+
+        
+    
+    
+            var marker_5864a4e04495848d0b4bcd9b857e566d = L.marker(
+                [21.721746, -71.5527809],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_b4e2c6e9bd125b7eeaa12d6c1f63ee1e = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_cf0da1250d01eb159bddff8c2bdf667c = $(`<div id="html_cf0da1250d01eb159bddff8c2bdf667c" style="width: 100.0%; height: 100.0%;">Turks and Caicos Islands, People fully Vaccinated: 29400.0<br>Turks and Caicos Islands, People with at least one dose: 31419.0</div>`)[0];
+                popup_b4e2c6e9bd125b7eeaa12d6c1f63ee1e.setContent(html_cf0da1250d01eb159bddff8c2bdf667c);
+            
+        
+
+        marker_5864a4e04495848d0b4bcd9b857e566d.bindPopup(popup_b4e2c6e9bd125b7eeaa12d6c1f63ee1e)
+        ;
+
+        
+    
+    
+            var marker_728f472bb862532d9a43524bb49d826d = L.marker(
+                [-8.6405212, 179.1582918],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_6ad1457cabc0828036d9bf07451b5bad = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_9a4802121262e0a7fd88b19ae0348abf = $(`<div id="html_9a4802121262e0a7fd88b19ae0348abf" style="width: 100.0%; height: 100.0%;">Tuvalu, People fully Vaccinated: 5884.0<br>Tuvalu, People with at least one dose: 6230.0</div>`)[0];
+                popup_6ad1457cabc0828036d9bf07451b5bad.setContent(html_9a4802121262e0a7fd88b19ae0348abf);
+            
+        
+
+        marker_728f472bb862532d9a43524bb49d826d.bindPopup(popup_6ad1457cabc0828036d9bf07451b5bad)
+        ;
+
+        
+    
+    
+            var marker_7d3daf65130021a7fbf2515e60951290 = L.marker(
+                [1.5333554, 32.2166578],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f80ef7d430fa50bc4b4b13375090f8fe = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2cdfa4974df6a63ccb21d79004dd43f6 = $(`<div id="html_2cdfa4974df6a63ccb21d79004dd43f6" style="width: 100.0%; height: 100.0%;">Uganda, People fully Vaccinated: 8014082.0<br>Uganda, People with at least one dose: 14131307.0</div>`)[0];
+                popup_f80ef7d430fa50bc4b4b13375090f8fe.setContent(html_2cdfa4974df6a63ccb21d79004dd43f6);
+            
+        
+
+        marker_7d3daf65130021a7fbf2515e60951290.bindPopup(popup_f80ef7d430fa50bc4b4b13375090f8fe)
+        ;
+
+        
+    
+    
+            var marker_2555a6964b98d74b677de9958f8723ed = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_2b8a735c0cbe45ff36d4be4ab619d556 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2d58a5b7d0c9c7993414c0b98a9dfa2c = $(`<div id="html_2d58a5b7d0c9c7993414c0b98a9dfa2c" style="width: 100.0%; height: 100.0%;">Ukraine, People fully Vaccinated: 15221792.0<br>Ukraine, People with at least one dose: 15729617.0</div>`)[0];
+                popup_2b8a735c0cbe45ff36d4be4ab619d556.setContent(html_2d58a5b7d0c9c7993414c0b98a9dfa2c);
+            
+        
+
+        marker_2555a6964b98d74b677de9958f8723ed.bindPopup(popup_2b8a735c0cbe45ff36d4be4ab619d556)
+        ;
+
+        
+    
+    
+            var marker_6519737812a93371e22088ca73c2b0f7 = L.marker(
+                [24.0002488, 53.9994829],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0c73a8cf78e12acaa8c564237421df5f = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_4032437da199b53ea0a29a31c12c3798 = $(`<div id="html_4032437da199b53ea0a29a31c12c3798" style="width: 100.0%; height: 100.0%;">United Arab Emirates, People fully Vaccinated: 9603499.0<br>United Arab Emirates, People with at least one dose: 9890318.0</div>`)[0];
+                popup_0c73a8cf78e12acaa8c564237421df5f.setContent(html_4032437da199b53ea0a29a31c12c3798);
+            
+        
+
+        marker_6519737812a93371e22088ca73c2b0f7.bindPopup(popup_0c73a8cf78e12acaa8c564237421df5f)
+        ;
+
+        
+    
+    
+            var marker_cc5c89bdfefc73856315239542741e66 = L.marker(
+                [54.7023545, -3.2765753],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_527ab7cbf4f4882a18598352f828f3ee = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_23be4d69a173b96f6f5ba0ad1bce4ff3 = $(`<div id="html_23be4d69a173b96f6f5ba0ad1bce4ff3" style="width: 100.0%; height: 100.0%;">United Kingdom, People fully Vaccinated: 49404026.0<br>United Kingdom, People with at least one dose: 52788065.0</div>`)[0];
+                popup_527ab7cbf4f4882a18598352f828f3ee.setContent(html_23be4d69a173b96f6f5ba0ad1bce4ff3);
+            
+        
+
+        marker_cc5c89bdfefc73856315239542741e66.bindPopup(popup_527ab7cbf4f4882a18598352f828f3ee)
+        ;
+
+        
+    
+    
+            var marker_94877334515ab95f043ac69588af2f45 = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f416f216069d67d97cf4473f56937951 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_2ae98d76be403c047101ce516f15ff1f = $(`<div id="html_2ae98d76be403c047101ce516f15ff1f" style="width: 100.0%; height: 100.0%;">United States, People fully Vaccinated: 217498967.0<br>United States, People with at least one dose: 255362450.0</div>`)[0];
+                popup_f416f216069d67d97cf4473f56937951.setContent(html_2ae98d76be403c047101ce516f15ff1f);
+            
+        
+
+        marker_94877334515ab95f043ac69588af2f45.bindPopup(popup_f416f216069d67d97cf4473f56937951)
+        ;
+
+        
+    
+    
+            var marker_061547dc899674571b4212d8a3292fc0 = L.marker(
+                [-32.8755548, -56.0201525],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_0f2f4f601476d1d3ecf616111107082d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_f62220b9e7b80b5197406570b52e10ae = $(`<div id="html_f62220b9e7b80b5197406570b52e10ae" style="width: 100.0%; height: 100.0%;">Uruguay, People fully Vaccinated: 2842482.0<br>Uruguay, People with at least one dose: 2972777.0</div>`)[0];
+                popup_0f2f4f601476d1d3ecf616111107082d.setContent(html_f62220b9e7b80b5197406570b52e10ae);
+            
+        
+
+        marker_061547dc899674571b4212d8a3292fc0.bindPopup(popup_0f2f4f601476d1d3ecf616111107082d)
+        ;
+
+        
+    
+    
+            var marker_1b54cc5ca5434ca7edfd53ec574afb74 = L.marker(
+                [41.32373, 63.9528098],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_93cc80bc764a0d5bf8ba8b0bee33a121 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_3a4fcb25bad9ccefb0fed9bd72184f22 = $(`<div id="html_3a4fcb25bad9ccefb0fed9bd72184f22" style="width: 100.0%; height: 100.0%;">Uzbekistan, People fully Vaccinated: 13852504.0<br>Uzbekistan, People with at least one dose: 18633103.0</div>`)[0];
+                popup_93cc80bc764a0d5bf8ba8b0bee33a121.setContent(html_3a4fcb25bad9ccefb0fed9bd72184f22);
+            
+        
+
+        marker_1b54cc5ca5434ca7edfd53ec574afb74.bindPopup(popup_93cc80bc764a0d5bf8ba8b0bee33a121)
+        ;
+
+        
+    
+    
+            var marker_c587caf0b19ab6fbd062a807d486c475 = L.marker(
+                [-16.5255069, 168.1069154],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_889fb6b7dfc808837fce19716dd7f44b = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a2741b944d2ef757a35dfac655f21caf = $(`<div id="html_a2741b944d2ef757a35dfac655f21caf" style="width: 100.0%; height: 100.0%;">Vanuatu, People fully Vaccinated: 85180.0<br>Vanuatu, People with at least one dose: 114284.0</div>`)[0];
+                popup_889fb6b7dfc808837fce19716dd7f44b.setContent(html_a2741b944d2ef757a35dfac655f21caf);
+            
+        
+
+        marker_c587caf0b19ab6fbd062a807d486c475.bindPopup(popup_889fb6b7dfc808837fce19716dd7f44b)
+        ;
+
+        
+    
+    
+            var marker_504e4d9004191325c27853d37698e12b = L.marker(
+                [8.0018709, -66.1109318],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_c34fd8210344bcb2080d47f8f0fb6ea5 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_592bfc82b5d987f577aec6e1a24ddfa8 = $(`<div id="html_592bfc82b5d987f577aec6e1a24ddfa8" style="width: 100.0%; height: 100.0%;">Venezuela, People fully Vaccinated: 14287370.0<br>Venezuela, People with at least one dose: 22157232.0</div>`)[0];
+                popup_c34fd8210344bcb2080d47f8f0fb6ea5.setContent(html_592bfc82b5d987f577aec6e1a24ddfa8);
+            
+        
+
+        marker_504e4d9004191325c27853d37698e12b.bindPopup(popup_c34fd8210344bcb2080d47f8f0fb6ea5)
+        ;
+
+        
+    
+    
+            var marker_fe434ffa04ab103e9e306915b9499f09 = L.marker(
+                [15.9266657, 107.9650855],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_08586381c947387b64e6258b650eaa4a = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_637cb44ebb7aa472da4a91e86e2e04f4 = $(`<div id="html_637cb44ebb7aa472da4a91e86e2e04f4" style="width: 100.0%; height: 100.0%;">Vietnam, People fully Vaccinated: 77754108.0<br>Vietnam, People with at least one dose: 79947189.0</div>`)[0];
+                popup_08586381c947387b64e6258b650eaa4a.setContent(html_637cb44ebb7aa472da4a91e86e2e04f4);
+            
+        
+
+        marker_fe434ffa04ab103e9e306915b9499f09.bindPopup(popup_08586381c947387b64e6258b650eaa4a)
+        ;
+
+        
+    
+    
+            var marker_f76981e453b492fcfdae1c74778443d6 = L.marker(
+                [52.2928116, -3.73893],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_f38f5fe3616c24c49f7a96bab4e0f89d = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_a821a4bd9a16d7ad5b08058017757527 = $(`<div id="html_a821a4bd9a16d7ad5b08058017757527" style="width: 100.0%; height: 100.0%;">Wales, People fully Vaccinated: 2399341.0<br>Wales, People with at least one dose: 2528664.0</div>`)[0];
+                popup_f38f5fe3616c24c49f7a96bab4e0f89d.setContent(html_a821a4bd9a16d7ad5b08058017757527);
+            
+        
+
+        marker_f76981e453b492fcfdae1c74778443d6.bindPopup(popup_f38f5fe3616c24c49f7a96bab4e0f89d)
+        ;
+
+        
+    
+    
+            var marker_96c5cb323c0d121e2eb5aa31477e9bd4 = L.marker(
+                [16.3471243, 47.8915271],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_be076f3df6bf5ac0f24309aefb2f2b41 = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_7570d7aa7d14b0e66c892503067a185d = $(`<div id="html_7570d7aa7d14b0e66c892503067a185d" style="width: 100.0%; height: 100.0%;">Yemen, People fully Vaccinated: 404781.0<br>Yemen, People with at least one dose: 643501.0</div>`)[0];
+                popup_be076f3df6bf5ac0f24309aefb2f2b41.setContent(html_7570d7aa7d14b0e66c892503067a185d);
+            
+        
+
+        marker_96c5cb323c0d121e2eb5aa31477e9bd4.bindPopup(popup_be076f3df6bf5ac0f24309aefb2f2b41)
+        ;
+
+        
+    
+    
+            var marker_6a6c7b5ef790c2bf618f3e09b62f68f5 = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(map_f05df345c6dfb90e7119ae048c526722);
+        
+    
+        var popup_ba26bc5a9c11b9a42177f2194c5baf1c = L.popup({"maxWidth": 320, "minWidth": 320});
+
+        
+            
+                var html_33d653856ad6d2f840a119ea07ea767c = $(`<div id="html_33d653856ad6d2f840a119ea07ea767c" style="width: 100.0%; height: 100.0%;">Zimbabwe, People fully Vaccinated: 3510256.0<br>Zimbabwe, People with at least one dose: 5053114.0</div>`)[0];
+                popup_ba26bc5a9c11b9a42177f2194c5baf1c.setContent(html_33d653856ad6d2f840a119ea07ea767c);
+            
+        
+
+        marker_6a6c7b5ef790c2bf618f3e09b62f68f5.bindPopup(popup_ba26bc5a9c11b9a42177f2194c5baf1c)
+        ;
+
+        
+    
+</script>
