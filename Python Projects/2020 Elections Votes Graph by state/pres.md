@@ -1,0 +1,1 @@
+During this project, which is one of my older ones, I had the program ask the user which state he wanted to see election data for. Then, it would take data from a dataset and create a bar graph on how many votes each candidate got.
