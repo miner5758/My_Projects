@@ -1,3 +1,4 @@
+//compile using g++ textadventure.cpp -lwinmm -trigraphs -o adventure.exe
 #include <random>
 #include <iostream>
 #include <string>
