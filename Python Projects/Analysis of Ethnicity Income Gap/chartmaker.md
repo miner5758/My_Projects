@@ -1,0 +1,1 @@
+This project was made for the Colorado TSA 2024 competition. It used data on household income, college enrollment rates, and earnings by degree to create different visualizations that I used in the creation of my scientific poster.

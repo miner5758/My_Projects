@@ -1,1 +1,0 @@
-This project was made for the Colorado TSA 2024 compeition. It used data on household income, college enrollment rates, and earnings by degree to make different vixualixations that i went on to use in the creation of my Scientific Poster.
